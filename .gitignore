@@ -3,3 +3,4 @@
 allaboutrum.Rproj
 .hugo_build.lock
 *.code-workspace
+*.DS_Store
