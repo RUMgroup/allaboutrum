@@ -15,11 +15,11 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organisation
     local_business_type: ""
     org_name: ""
     description: "Official website for the R User Group at the University of Manchester. We are involved in organising internal community events, hosting expert speakers, and ongoing community upskilling."
-    twitter: "wowchemy"
+    twitter: ""
   analytics:
     google_analytics: ""
     baidu_tongji: ""
