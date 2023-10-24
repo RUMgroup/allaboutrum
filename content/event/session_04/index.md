@@ -9,7 +9,7 @@ date: "2023-10-26T12:00:00"
 date_end: "2023-10-26T13:00:00"
 event: R User Group Meeting 
 featured: false
-location: Engineering A Room 3A.016 - University of Manchester
+location: Engineering A Room 3A.012 - University of Manchester & Online on Microsoft Teams
 publishDate: "2023-10-24T00:00:00"
 title: R.U.M Semester Welcome Event
 url_code: ""
@@ -31,3 +31,5 @@ share: false
 **Talk 3:** *R4DS: Book Club, a Discussion* **Martin Herrerias Azcue, Research Software Engineer**, the University of Manchester
 
 *I will give a summary and discuss some take-aways from the R4DS Book Club we ran over Summer 2023, including our favourite verbs, functions, and what some of the attendees benefitted from the most.*
+
+
