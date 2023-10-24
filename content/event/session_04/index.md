@@ -18,6 +18,10 @@ url_slides: ""
 url_video: ""
 share: false
 ---
+
+**Online Meeting**: [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1697101724264?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d)  
+*The Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk*
+
 **Chair** Martin Herrerias Azcue
 
 **Talk 1:** *An OveRview* with speaker **Lana Bojanic**, the University of Manchester
