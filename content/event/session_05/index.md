@@ -24,10 +24,13 @@ share: false
 
 **Chair** TBA
 
-**Talk 1:** TBA, speaker **Glen Martin**, the University of Manchester
+**Talk 1**: *predRupdate and publishing to CRAN*, speaker **Glen Martin**, Senior Lecturer in Health Data Science, the University of Manchester
 
-*Abstract TBA*
+***Abstract***: *In this talk he will give a brief overview of the package, the stages of creating the package and getting it published on CRAN.*
 
-**Talk 2:** *TidyTuesdays* **Augustin Mutak**, Freie Universität Berlin
+***Bio***: Dr Glen Martin is a Senior Lecturer in Health Data Science, based in the Centre for Health Informatics at the University of Manchester. He has recently developed an R package for validating and updating clinical prediction models, [predRupdate](https://github.com/GlenMartin31/predRupdate).
+
+
+**Talk 2**: *TBA* **Augustin Mutak**, Freie Universität Berlin
 
 *Abstract TBA*
