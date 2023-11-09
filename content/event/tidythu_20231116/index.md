@@ -9,7 +9,7 @@ date: "2023-11-16T13:00:00"
 date_end: "2023-11-16T1:00:00"
 event: R User Group Data Visualization Club
 featured: false
-location: Engineering A TBA & Online on Microsoft Teams
+location: Engineering A_1A.010 M&T& Online on Microsoft Teams
 publishDate: "2023-11-08T00:00:00"
 title: R.U.M TidyTuesday (On a Thursday!)
 url_code: ""
