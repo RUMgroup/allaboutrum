@@ -26,11 +26,13 @@ share: false
 
 **Talk 1**: *predRupdate and publishing to CRAN*, speaker **Glen Martin**, Senior Lecturer in Health Data Science, the University of Manchester
 
-***Abstract***: *In this talk he will give a brief overview of the package, the stages of creating the package and getting it published on CRAN.*
+***Abstract***: *In this talk I will give a brief overview of the predRupdate package, the stages of creating predRupdate and getting it published on CRAN.*
 
 ***Bio***: Dr Glen Martin is a Senior Lecturer in Health Data Science, based in the Centre for Health Informatics at the University of Manchester. He has recently developed an R package for validating and updating clinical prediction models, [predRupdate](https://github.com/GlenMartin31/predRupdate).
 
 
 **Talk 2**: *TBA* **Augustin Mutak**, Freie Universität Berlin
 
-*Abstract TBA*
+***Abstract***: *In this talk, attendees will learn about the cosinor model, which allows researchers to fit sinusoidal curves to detect periodicity, about different variants and extensions of the cosinor model and they will be given an overview of the package development. For every specific cosinor method mentioned in the talk, users will also be shown how to perform the corresponding analysis in R using the cosinor2 package.*
+
+***Bio***: Augustin Mutak is a Ph.D. student and a research assistant at Freie Universität Berlin, where he works on development of psychometric models for response times. Prior to that, he graduated psychology in Zagreb and researched fluctuations of mood, for the purpose of which he developed the cosinor2 package for R.
