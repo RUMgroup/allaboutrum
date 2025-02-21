@@ -1,0 +1,28 @@
+---
+title: "Upcoming &amp; Past Events"
+format:
+  html:
+    # page-layout: full
+    anchor-sections: false
+listing:
+  - id: events-upcoming
+    contents: "upcoming/*.qmd"
+    type: default
+    fields: [date, title]
+    sort: date desc
+  - id: events-past
+    contents: "past/*.qmd"
+    type: default
+    fields: [date, title]
+    sort: date desc
+---
+
+### Upcoming
+
+:::{#events-upcoming}
+:::
+
+### Past
+
+:::{#events-past}
+:::

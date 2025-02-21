@@ -1,0 +1,17 @@
+---
+title: "Lucy Njoki Njuki"
+format: html
+description: "Biostatistician in training &amp; Organiser of R Ladies Nairobi"
+date: "2016-04-27"
+image: ../../../assets/img/team/profile.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/profile.jpg
+  image-width: 8em
+  image-shape: rounded
+---
+
+<!-- Past team member -->
+
+[Lucy Njoki Njuki](https://lucynjoki.github.io/lucynjokinjuki/) is a
+biostatistician in training and organiser of R Ladies Nairobi. 

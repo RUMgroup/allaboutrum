@@ -1,0 +1,23 @@
+---
+title: "Rowan Green"
+format: html
+description: "PhD student in microbial evolution"
+date: "2017-04-27"
+image: ../../../assets/img/team/rowan.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/rowan.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Rowan Green"
+  image-title: "Rowan Green"
+---
+
+<!-- Past team member -->
+
+I'm a PhD student studying microbial evolution. I frequently use R in my
+research, both for simulating bacterial growth and for analysing lab data. I
+think R is an amazing tool and am excited to be bringing people together to
+share expertise in its many uses.
+
+[ORCiD]("https://orcid.org/0000-0002-2147-9087"")

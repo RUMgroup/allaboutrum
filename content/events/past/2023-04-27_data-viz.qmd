@@ -1,0 +1,30 @@
+---
+title: "[Getting Things Done Done in R Series &#8212; Data Visualisation]{.event-title}"
+subtitle: "[In this month’s meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.]{.event-summary} <br> \
+[Thu Apr 27, 2023 @ 1:00 pm - 2:00 pm]{.event-time} <br> \
+[Room 3A.016, Engineering A (University of Manchester)]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2023-04-27"
+---
+
+<!--
+date: "2023-04-27T13:00:00"
+date_end: "2023-04-27T14:00:00"
+event: R User Group Meeting 
+location: Engineering A Room 3A.016 (University of Manchester)
+publish_date: "2023-08-20T00:00:00"
+-->
+
+In this month's meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.
+
+**Chair**: Rowan Green
+
+**Talk 1**: *A Quick Introduction to ggplot2* &#8212; speaker **Sian Bladon** (She/her) &#8212; Post Doctoral Research Associate, UoM
+
+A quick overview of the ggplot2 package how to get started with simple plots and how to customise them. I'll also talk about where you can find more information and useful resources to help you get going. 
+
+**Talk 2**: *A Tour of ggplot2 Extensions* &#8212; speaker **Kamilla Kopec-Harding** (She/her) &#8212; Research Software Engineer, UoM
+
+ggplot2 comes with a useful ecosystem of user written packages that extend its functionality. In this talk, we take a tour of key ggplot2 extensions &amp; how they can be used to solve common data visualization challenges and get things "done done" in R.

@@ -1,0 +1,96 @@
+---
+title: ""
+format:
+  html:
+    page-layout: full
+    anchor-sections: false
+editor:
+  markdown:
+    wrap: 80
+---
+
+:::::::: {.outer-grid}
+
+::::::: {.outer-grid-left-col}
+
+::::: {.hero}
+
+[![](./assets/img/rum-logo.png){alt="R.U.M." .rum-logo}](https://rumgroup.github.io/allaboutrum/)
+
+## R User Group
+
+:::: {.rum-info}
+[Special Interest Group]{.group-type}
+
+[University of Manchester](https://www.manchester.ac.uk/)
+::::
+<!-- end: .rum-info -->
+
+:::: {.contact-icons}
+<a class="contact-link" href="./content/contact.html">
+  <!-- Hover icon: Open envelope -->
+  <svg class="contact-link__icon envelope-open" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75zM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765M16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+  </svg>
+  <!-- Default icon: Closed envelope -->
+  <svg class="contact-link__icon envelope-closed" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+  </svg>
+</a>
+
+<a class="github-icon" href="https://github.com/RUMgroup"><i class="fa-brands fa-github"></i></a>
+::::
+<!-- end: .contact-icons -->
+
+:::::
+<!-- end: .hero -->
+
+:::::::
+<!-- end: .outer-grid-left-col -->
+
+::::::: {.outer-grid-right-col}
+
+## About
+
+::::: {#landing-about}
+The R User Group at The University of Manchester (R.U.M.) is a special
+interest group that aims to bring together R users of all levels to
+share R best practices, expertise and knowledge for the benefit of all.
+
+This friendly and supportive group is open to all staff and postgraduate
+researchers at the University of Manchester, UK.
+
+::::: {.about-grid}
+:::: {.about-grid-left-col}
+### Goals
+
+- Promote the use of R at UoM
+- Share R best practices
+- Encourage reproducibility
+::::
+<!-- end: .about-grid-left-col -->
+
+:::: {.about-grid-right-col}
+### Activities
+
+- Quarterly meetings
+- Tidy Tuesdays
+
+::: {.small-note}
+Please check the events tab for upcoming activities
+:::
+
+::::
+<!-- end: .about-grid-right-col -->
+
+:::::
+<!-- end: .about-grid -->
+
+::::::
+<!-- end: #landing-about -->
+
+:::::::
+<!-- end: .outer-grid-right-col -->
+
+::::::::
+<!-- end: .outer-grid -->

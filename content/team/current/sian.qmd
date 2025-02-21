@@ -1,0 +1,22 @@
+---
+title: "Sian Bladon"
+format: html
+description: "Post-doctoral research associate in medical statistics"
+date: "2017-04-27"
+image: ../../../assets/img/team/sian.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/sian.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Sian Bladon"
+  image-title: "Sian Bladon"
+---
+
+<!-- Current team member -->
+
+I am a post-doctoral research associate in medical statistics at The University
+of Manchester, working on a project developing a clinical prediction algorithm
+for predicting risk of relapse in psychosis. I have been using R for around 6
+years and particularly like the tidyverse and creating fun visualisations with
+ggplot2.

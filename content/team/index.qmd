@@ -1,0 +1,28 @@
+---
+title: "Organising Team"
+format:
+  html:
+    # page-layout: full
+    anchor-sections: false
+listing:
+  - id: team-current
+    contents: "current/*.qmd"
+    type: grid
+    sort: title
+    fields: [title, description, image]
+  - id: team-past
+    contents: "past/*.qmd"
+    type: grid
+    sort: title
+    fields: [title, description, image]
+---
+
+## Current
+
+:::{#team-current}
+:::
+
+## Past
+
+:::{#team-past}
+:::
