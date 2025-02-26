@@ -1,6 +1,9 @@
-.Rprofile
 .Rproj.user
-allaboutrum.Rproj
-.hugo_build.lock
-*.code-workspace
-*.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+
+.DS_Store
+
+/.quarto/
+/_site/

@@ -1,0 +1,22 @@
+---
+title: "Stavrina Dimosthenous"
+format: html
+description: "Data Curator: Henry Royce Institute"
+date: "2017-04-27"
+image: ../../../assets/img/team/stavrina.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/stavrina.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Stavrina Dimosthenous"
+  image-title: "Stavrina Dimosthenous"
+---
+
+<!-- Current team member -->
+
+Stavrina is a Data Curator at the Henry Royce Institute. She is interested in
+data visualisation, data and science communication, and community building. \
+[ORCID](https://orcid.org/0000-0002-6199-5094)
+[GitHub](https://github.com/stavrina")
+@stavrina 

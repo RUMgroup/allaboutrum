@@ -1,0 +1,21 @@
+---
+title: "Mychel Morais"
+format: html
+description: "Post-doctoral Research Associate"
+date: "2023-01-01"
+image: ../../../assets/img/team/mychel.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/mychel.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Mychel Morais"
+  image-title: "Mychel Morais"
+---
+
+<!-- Past team member -->
+
+Mychel is a post-doctoral research associate at the University of Manchester,
+with an interest in cell-matrix biology. He uses R on a daily basis for
+bioinformatics analysis of high-throughput data from mass spectrometry
+experiments.

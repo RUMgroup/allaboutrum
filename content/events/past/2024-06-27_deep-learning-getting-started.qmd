@@ -1,0 +1,17 @@
+---
+title: "[AI with R: Getting Started with Deep Learning]{.event-title}"
+subtitle: "[In this meeting with speaker Kamilla Kopec-Harding, learn how to get started with Deep Learning in R.]{.event-summary} <br> \
+[Thu Jun 27, 2024 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
+[Room 5.205, University Place (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2024-06-27"
+---
+
+**Talk**: *AI with R: Getting Started with Deep Learning* &#8212; speaker **Kamilla Kopec-Harding**
+
+Kamilla, Senior Research Data Scientist at the University of Birmingham, joins
+us at UoM to give a talk on getting started with using Deep Learning in R.
+
+Students and staff are all welcome to attend.

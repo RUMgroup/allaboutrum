@@ -1,0 +1,38 @@
+---
+title: "[R.U.M. Semester Welcome Event]{.event-title}"
+subtitle: "[In this session with speakers Lana Bojanic, Sian Bladon, and Martin Herrerias Azcue we introduce some of our favourite bits of R, talk about event plans for the academic year, and give an discuss how the most recent book club on R4DS went.]{.event-summary} <br> \
+[Thu Oct 26, 2023 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
+[Room 3A.012, Engineering A (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2023-10-26"
+---
+
+<!--
+date: "2023-10-26T12:00:00"
+date_end: "2023-10-26T13:00:00"
+event: R User Group Meeting 
+location: Engineering A Room 3A.012 (University of Manchester) &amp; Online on Microsoft Teams
+publish_date: "2023-10-24T00:00:00"
+-->
+
+In this session with speakers Lana Bojanic, Sian Bladon, and Martin Herrerias Azcue we introduce some of our favourite bits of R, talk about event plans for the academic year, and give an discuss how the most recent book club on R4DS went.
+
+**Online Meeting**: [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1697101724264?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d)
+
+*The Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk*
+
+**Chair**: Martin Herrerias Azcue
+
+**Talk 1**: *An OveRview* &#8212; speaker **Lana Bojanic**, the University of Manchester
+
+I will present my favourite bits and pieces of the R language.
+
+**Talk 2**: *TidyTuesdays* &#8212; speaker **Sian Bladon**, the University of Manchester
+
+A quick talk about the coming TidyTuesday Data Visualization Club events for the coming academic year.
+
+**Talk 3**: *R4DS: Book Club, a Discussion* &#8212; speaker **Martin Herrerias Azcue**, Research Software Engineer, the University of Manchester
+
+I will give a summary and discuss some take-aways from the R4DS Book Club we ran over Summer 2023, including our favourite verbs, functions, and what some of the attendees benefited from the most.

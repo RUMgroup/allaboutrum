@@ -1,0 +1,30 @@
+---
+title: "[R Functions [for visualization]]{.event-title}"
+subtitle: "[Martin Herrerias and Sian Bladon introduce R functions, ggplot2 and how to automate the creation of multiple plots.]{.event-summary} <br> \
+[Thu Nov 28, 2024 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
+[Room 2.217, University Place (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2024-11-28"
+---
+
+Attention **R beginners**:
+ 
+Tired of copy pasting blocks of code? Found yourself fixing the same bug in five
+different places? Want to test many variations of your script? Generate multiple
+similar plots?
+ 
+Write R functions! They will make your R code more concise, easier to read,
+debug, and maintain.
+
+We'll have two short sessions:
+
+**Talk 1**: *Introduction to Functions* &#8212; speaker **Martin Herrerias**
+
+Martin will discuss basic function syntax, arguments, and environments.
+
+**Talk 2**: *Generating Plots with Functions* &#8212; speaker **Sian Bladon**
+
+Sian will give a brief introduction to ggplot2 and talk about using the map
+function from purrr to automate creating multiple plots.

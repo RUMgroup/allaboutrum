@@ -1,0 +1,16 @@
+---
+title: "Kamilla Kopec-Harding"
+format: html
+description: "Data Scientist &amp; Research Software Engineer"
+date: "2016-04-27"
+image: ../../../assets/img/team/profile.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/profile.jpg
+  image-width: 8em
+  image-shape: rounded
+---
+
+<!-- Past team member -->
+
+Kamilla is a data scientist, research software engineer and R enthusiast. 

@@ -1,0 +1,30 @@
+---
+title: "[Getting Things Done Done in R Series &#8212; Automating Reports and More]{.event-title}"
+subtitle: "[In this meeting with speakers Stavrina Dimosthenous and Duncan Hull, we take a look at how to automate reports and other publications in R.]{.event-summary} <br> \
+[Thu Jun 29, 2023 @ 1:00 pm - 2:00 pm]{.event-time} <br> \
+[Room 3A.016, Engineering A (University of Manchester)]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2023-06-29"
+---
+
+<!--
+date: "2023-06-29T13:00:00"
+date_end: "2023-06-29T14:00:00"
+event: R User Group Meeting 
+location: Engineering A Room 3A.016 (University of Manchester)
+publish_date: "2023-08-20T00:00:00"
+-->
+
+In this meeting with speakers Stavrina Dimosthenous and Duncan Hull, we take a look at how to automate reports and other publications in R. 
+
+**Chair**: Mychel Paiva Teixeira Morais
+
+**Talk 1**: *Easy Reporting and More in Quarto Markdown for R* &#8212; speaker **Stavrina Dimosthenous**, Data Curator, Henry Royce Institute, the University of Manchester
+
+I will be giving you a quick walkthrough Quarto Markdown for doing your analysis and reporting in R, and will briefly touch on a few Quarto features for creating documents and presentations.
+
+**Talk 2**: *Using RMarkdown to write an Undergraduate Textbook* &#8212; speaker **Duncan Hull**, Lecturer, Department of Computer Science
+
+A quick overview of some of the pros and cons of using RMarkdown and bookdown.org to author an undergraduate textbook.

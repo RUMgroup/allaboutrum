@@ -1,0 +1,21 @@
+---
+title: "Martin Herrerias Azcue"
+format: html
+description: "Research Software Engineer"
+date: "2025-02-25"
+image: ../../../assets/img/team/martin.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/martin.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Martin Herrerias Azcue"
+  image-title: "Martin Herrerias Azcue"
+---
+
+<!-- Current team member -->
+
+Martin is a Research Software Engineer at ResearchIT. His job is to help
+researchers write better code, and regularly delivers an intro-to-R workshop. He
+has a background in solar energy, with experience in systems modelling, data
+analysis, state estimation and optimization.
