@@ -1,0 +1,17 @@
+---
+title: "[Executable and Reproducible Papers with Quarto and Docker]{.event-title}"
+subtitle: "[Gabriel Strain shows how to use quarto and docker to produce a formatted, reproducible and executable conference or journal article.]{.event-summary} <br> \
+[Thu Sep 26, 2024 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
+[Room 5.212, University Place (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2024-09-26"
+---
+
+**Workshop**: *Executable and Reproducible Papers with Quarto and Docker* &#8212; speaker **Gabriel Strain**
+
+In this meeting with speaker Gabriel Strain, learn how to use quarto and docker to produce a formatted, reproducible and executable conference or journal article.
+
+This will be an **interactive workshop!** Make sure to bring your laptop, with
+R, RStudio, and Docker Desktop.

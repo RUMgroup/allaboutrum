@@ -1,0 +1,26 @@
+---
+title: "[Spatial Data and Mapping in R]{.event-title}"
+subtitle: "[In this meeting speaker Maryna Shedzko introduces the basics of spatial data and how to create stunning maps in R.]{.event-summary} <br> \
+[Thu Feb 27, 2025 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
+[Room B2.4, Ellen Wilkinson Building (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
+format:
+  html:
+    anchor-sections: false
+date: "2025-02-27"
+---
+
+**Talk**: *Spatial Data and Mapping in R* &#8212; speaker **Maryna Shedzko**
+
+**Do you have an urge to know** ***where?***
+
+Discover how to bring your data to life through mapping! This talk introduces
+the basics of spatial data and how to create stunning maps in R. Using the
+beloved `ggplot2`, `tmap`, and the powerful `sf` package, we'll explore
+visualizing vector and raster data, creating thematic maps, and customizing
+them. Whether you;re new to spatial data or looking to enhance your data
+visualization skills, this session will guide you through the essentials of
+mapping in R.
+
+Maryna is a Research Software Engineer with a background in GIS and
+Biogeography. During her studies, she specialized in disease distribution,
+particularly using R for modelling and spatial analysis.
