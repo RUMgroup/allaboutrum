@@ -15,9 +15,17 @@ listing:
     type: default
     fields: [date, title]
     sort: date desc
+events:
+  upcoming: false
 ---
 
 ### Upcoming
+
+::: {.content-hidden when-meta="events.upcoming"}
+Check back for upcoming events.
+:::
+
+[comment]: # (NB: Set events.upcoming to true if there are events to display)
 
 :::{#events-upcoming}
 :::
