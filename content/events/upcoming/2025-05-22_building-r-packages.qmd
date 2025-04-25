@@ -1,0 +1,44 @@
+---
+title: "Thinking Beyond Scripts: Build an R Package from the Ground Up"
+
+# Publication date of this entry
+date: "2025-04-25"
+
+event:
+  date: "Thu 22 May, 2025"
+  # time_start:
+  # time_end:
+  time: "12:00 pm - 1:00 pm BST"
+  summary: "In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way)."
+  location: "Hanson Room, Humanities Bridgeford Street"
+  location_url: "https://www.estates.manchester.ac.uk/services/centralteachingspaces/ourservices/roomcatalogue/?building=15&room=75"
+  hybrid: true
+  # hybrid_url: "https://teams.microsoft.com/l/meetup-join/xxx"
+
+# chair:
+
+talk:
+  speaker_1: "Toni Price"
+  topic_1: "Thinking Beyond Scripts: Build an R Package from the Ground Up"
+
+bio:
+  speaker_1: |
+    Toni is a Research Software Engineer at the University of Manchester. With a background in Statistics, she started her career in industry as a software developer, later completing a PhD which introduced her to R (it soon became her language of choice). She now focuses on writing robust, maintainable code and has a special interest in reproducible research.
+
+content:
+  speaker_1: |
+    Imagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with `devtools`, `usethis`, `testthat` and `roxygen2` in RStudio. Throw in a documentation website built with `pkgdown` and advice from `goodpractice` to streamline your workflow -- and take your R skills to the next level!
+---
+
+<!-- Note: meta event_location is constructed in content/events/_construct-location.lua -->
+
+[{{< meta event.summary >}}]{.event-summary} \
+[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
+[{{< meta event_location >}}]{.event-location}
+
+**Talk**: *{{< meta talk.topic_1 >}}*
+
+{{< meta content.speaker_1 >}}
+
+**Speaker**: *{{< meta talk.speaker_1 >}}* \
+{{< meta bio.speaker_1 >}}

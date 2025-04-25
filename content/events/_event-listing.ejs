@@ -1,0 +1,17 @@
+<div class="list-entry">
+<% for (const item of items) { %>
+  <%
+    var hybrid_lbl = ""
+    if (item.event.hybrid) {
+      hybrid_lbl = "&nbsp;[&#8226;]{.sep} Online via Microsoft Teams"
+    }
+  %>
+  <div class="listing-col1 event-date"><%= item.event.date %></div>
+  <div class="listing-col2 event-descrip"><a href="<%- item.path %>">
+    <span class="event-title"><%= item.title %></span> <br/>
+    <span class="event-summary"><%= item.event.summary %></span> <br/>
+    <span class="event-time"><%= item.event.date %> @ <%= item.event.time %></span> <br/>
+    <span class="event-location"><%= item.event.location %><%= hybrid_lbl %></span>
+  </a></div>
+<% } %>
+</div>

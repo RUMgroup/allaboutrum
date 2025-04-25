@@ -4,28 +4,36 @@ format:
   html:
     # page-layout: full
     anchor-sections: false
+
+date-modified: last-modified
+
 listing:
+
   - id: events-upcoming
-    contents: "upcoming/*.qmd"
-    type: default
-    fields: [date, title]
-    sort: date desc
+    template: _event-listing.ejs
+    contents:
+      - "upcoming/*.qmd"
+    sort:
+      - "date desc"
+      - "title"
+
   - id: events-past
     contents: "past/*.qmd"
     type: default
     fields: [date, title]
     sort: date desc
+
 events:
-  upcoming: false
+  upcoming: true
 ---
+
+[comment]: # (NB: Set meta events.upcoming to true/false according to whether there are any events to display)
 
 ### Upcoming
 
 ::: {.content-hidden when-meta="events.upcoming"}
 Check back for upcoming events.
 :::
-
-[comment]: # (NB: Set events.upcoming to true if there are events to display)
 
 :::{#events-upcoming}
 :::
