@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Getting Things Done Done in R Series — Data Visualisation – Home</title>
+<title>Thinking Beyond Scripts: Build an R Package from the Ground Up – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -126,8 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="event-title">Getting Things Done Done in R Series — Data Visualisation</span></h1>
-<p class="subtitle lead"><span class="event-summary">In this month’s meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.</span> <br> <span class="event-time">Thu Apr 27, 2023 @ 1:00 pm - 2:00 pm</span> <br> <span class="event-location">Room 3A.016, Engineering A (University of Manchester)</span></p>
+<h1 class="title">Thinking Beyond Scripts: Build an R Package from the Ground Up</h1>
 </div>
 
 
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Thu 27 Apr, 2023</p>
+      <p class="date">Fri 25 Apr, 2025</p>
     </div>
   </div>
   
@@ -150,19 +150,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!--
-date: "2023-04-27T13:00:00"
-date_end: "2023-04-27T14:00:00"
-event: R User Group Meeting 
-location: Engineering A Room 3A.016 (University of Manchester)
-publish_date: "2023-08-20T00:00:00"
--->
-<p>In this month’s meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.</p>
-<p><strong>Chair</strong>: Rowan Green</p>
-<p><strong>Talk 1</strong>: <em>A Quick Introduction to ggplot2</em> — speaker <strong>Sian Bladon</strong> (She/her) — Post Doctoral Research Associate, UoM</p>
-<p>A quick overview of the ggplot2 package how to get started with simple plots and how to customise them. I’ll also talk about where you can find more information and useful resources to help you get going.</p>
-<p><strong>Talk 2</strong>: <em>A Tour of ggplot2 Extensions</em> — speaker <strong>Kamilla Kopec-Harding</strong> (She/her) — Research Software Engineer, UoM</p>
-<p>ggplot2 comes with a useful ecosystem of user written packages that extend its functionality. In this talk, we take a tour of key ggplot2 extensions &amp; how they can be used to solve common data visualization challenges and get things “done done” in R.</p>
+<!-- Note: meta event_location is constructed in content/events/_construct-location.lua -->
+<p><span class="event-summary">In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way).</span><br>
+<span class="event-time">Thu 22 May, 2025 @ 12:00 pm - 1:00 pm BST</span><br>
+<span class="event-location"><a href="https://www.estates.manchester.ac.uk/services/centralteachingspaces/ourservices/roomcatalogue/?building=15&amp;room=75">Hanson Room, Humanities Bridgeford Street</a> <span class="sep">•</span> Online via Microsoft Teams</span></p>
+<p><strong>Talk</strong>: <em>Thinking Beyond Scripts: Build an R Package from the Ground Up</em></p>
+<p>Imagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with <code>devtools</code>, <code>usethis</code>, <code>testthat</code> and <code>roxygen2</code> in RStudio. Throw in a documentation website built with <code>pkgdown</code> and advice from <code>goodpractice</code> to streamline your workflow – and take your R skills to the next level!</p>
+<p><strong>Speaker</strong>: <em>Toni Price</em><br>
+</p>
+<p>Toni is a Research Software Engineer at the University of Manchester. With a background in Statistics, she started her career in industry as a software developer, later completing a PhD which introduced her to R (it soon became her language of choice). She now focuses on writing robust, maintainable code and has a special interest in reproducible research.</p>
 
 
 
@@ -225,6 +221,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

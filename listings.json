@@ -1,21 +1,8 @@
 [
   {
-    "listing": "/content/team/index.html",
-    "items": [
-      "/content/team/current/lana.html",
-      "/content/team/current/martin.html",
-      "/content/team/current/rowan.html",
-      "/content/team/current/sian.html",
-      "/content/team/current/stavrina.html",
-      "/content/team/current/toni.html",
-      "/content/team/past/kamilla.html",
-      "/content/team/past/lucy.html",
-      "/content/team/past/mychel.html"
-    ]
-  },
-  {
     "listing": "/content/events/index.html",
     "items": [
+      "/content/events/upcoming/2025-05-22_building-r-packages.html",
       "/content/events/past/2025-02-27_spatial-data-and-mapping.html",
       "/content/events/past/2024-11-28_r-funcs-for-visualisation.html",
       "/content/events/past/2024-09-26_quarto-and-docker.html",
@@ -27,6 +14,21 @@
       "/content/events/past/2023-06-29_automating-reports.html",
       "/content/events/past/2023-05-25_pub-ready-tables.html",
       "/content/events/past/2023-04-27_data-viz.html"
+    ]
+  },
+  {
+    "listing": "/content/team/index.html",
+    "items": [
+      "/content/team/current/lana.html",
+      "/content/team/current/martin.html",
+      "/content/team/current/maryna.html",
+      "/content/team/current/rowan.html",
+      "/content/team/current/sian.html",
+      "/content/team/current/stavrina.html",
+      "/content/team/current/toni.html",
+      "/content/team/past/kamilla.html",
+      "/content/team/past/lucy.html",
+      "/content/team/past/mychel.html"
     ]
   }
 ]

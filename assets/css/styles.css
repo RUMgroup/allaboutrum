@@ -7,6 +7,8 @@
 }
 
 :root {
+  --clr-black: #272727;
+
   --clr-bright-blue: hsl(212.23, 100%, 55.1%);         /* #1a84ff */
   --clr-mid-blue: hsl(212.09, 80.37%, 41.96%);         /* #1565c1 */
   --clr-mid-grey: hsl(208.24, 7.3%, 45.69%);           /* #6c757d */
@@ -271,13 +273,21 @@ a.github-icon:hover, a.github-icon:focus {
   color: var(--icon-heart-clr);
 }
 
+/*
+.listing-subtitle {
+  width: 36em;
+}
+*/
+
 h3 .event-title {
   font-size: 1.2rem;
   font-weight: var(--font-wt-semi-bold);
 }
 
-.listing-subtitle {
-  width: 36em;
+.event-date {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  padding: 0.2em 0 0 0.2em;
 }
 
 .event-summary {
@@ -285,7 +295,12 @@ h3 .event-title {
   font-size: 1.1rem;
 }
 
-.event-time, .event-location {
+.event-time {
+  font-size: 1.0rem;
+  font-weight: 600;
+}
+
+.event-location {
   font-style: italic;
   font-size: 1rem;
 }
@@ -312,3 +327,33 @@ p.card-img-top {
 #quarto-document-content.content {
 }
 */
+
+.list-entry a {
+  text-decoration: none;
+  color: var(--clr-black);
+}
+
+.list-entry a:hover, .list-entry a:focus {
+}
+
+.list-entry .event-title {
+  font-family: Montserrat, Roboto, var(--font-sys-stack);
+  font-weight: 600;
+  font-size: 1.15rem;
+  opacity: 0.85;
+}
+
+.list-entry {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem; /* Space between columns */
+}
+
+.listing-col1 {
+  flex: 0 0 33%; /* Don't grow, don't shrink, width 33% */
+}
+
+.listing-col2 {
+  flex: 1 1 auto; /* Grow, shrink, auto width (fills remaining space) */
+  padding: 0 0.9rem 0 0;
+}

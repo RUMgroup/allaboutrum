@@ -1,103 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-04-27_data-viz.html</loc>
-    <lastmod>2025-03-03T18:09:33.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2024-09-26_quarto-and-docker.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-10-26_semester-welcome.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2025-02-27_spatial-data-and-mapping.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2024-11-28_r-funcs-for-visualisation.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2024-06-27_deep-learning-getting-started.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/past/mychel.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/past/lucy.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/martin.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/sian.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
+    <loc>https://RUMgroup.github.io/allaboutrum/index.html</loc>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
   </url>
   <url>
     <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/rowan.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
   </url>
   <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/contact.html</loc>
-    <lastmod>2025-03-03T18:09:33.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/index.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/privacy.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/index.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/sian.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
   </url>
   <url>
     <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/stavrina.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
   </url>
   <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/lana.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/martin.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
   </url>
   <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/toni.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/past/mychel.html</loc>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
   </url>
   <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/team/past/kamilla.html</loc>
-    <lastmod>2025-03-03T18:09:33.697Z</lastmod>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/privacy.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
   </url>
   <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/index.html</loc>
-    <lastmod>2025-03-03T18:09:33.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-11-16_tidy-thurs.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-07-12_r4ds-book-club.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-05-25_pub-ready-tables.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/upcoming/2025-05-22_building-r-packages.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
   </url>
   <url>
     <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-06-29_automating-reports.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2024-06-27_deep-learning-getting-started.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-04-27_data-viz.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2025-02-27_spatial-data-and-mapping.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-10-26_semester-welcome.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/contact.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2024-09-26_quarto-and-docker.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2024-11-28_r-funcs-for-visualisation.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-05-25_pub-ready-tables.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
   </url>
   <url>
     <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-11-30_r-pkg-dev.html</loc>
-    <lastmod>2025-03-03T18:09:33.696Z</lastmod>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-07-12_r4ds-book-club.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/past/2023-11-16_tidy-thurs.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/events/index.html</loc>
+    <lastmod>2025-04-25T13:54:31.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/past/lucy.html</loc>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/past/kamilla.html</loc>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/maryna.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/toni.html</loc>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/current/lana.html</loc>
+    <lastmod>2025-04-25T13:54:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RUMgroup.github.io/allaboutrum/content/team/index.html</loc>
+    <lastmod>2025-04-25T13:54:31.652Z</lastmod>
   </url>
 </urlset>
