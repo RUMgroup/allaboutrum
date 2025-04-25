@@ -5,6 +5,11 @@ project:
     port: 4321
     browser: true
 
+date-format: "ddd D MMM, YYYY"
+
+language:
+  title-block-modified: "Last updated"
+
 website:
   title: "Home"
   favicon: assets/icon/favicon-96x96.png
