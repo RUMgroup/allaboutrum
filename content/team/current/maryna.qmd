@@ -1,0 +1,24 @@
+---
+title: "Maryna Shedzko"
+format: html
+description: "Research Software Engineer"
+date: "2025-03-19"
+image: ../../../assets/img/team/maryna.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/maryna.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Maryna Shedzko"
+  image-title: "Maryna Shedzko"
+---
+
+<!-- Current team member -->
+
+I am a Research Software Engineer at the University of Manchester with a background in 
+GIS and Biogeography. R was the first programming language I learned, and 
+I initially used it as a Geographic Information System for mapping and spatial analysis, 
+particularly in species and disease distribution modelling. I was deeply impressed with R's capabilities for such complicated analysis.
+
+This experience solidified my passion for spatial data and sparked a deeper interest 
+in programming, leading me to explore software development alongside GIS.
