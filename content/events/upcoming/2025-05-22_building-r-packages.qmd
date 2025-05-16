@@ -13,7 +13,8 @@ event:
   location: "Hanson Room, Humanities Bridgeford Street"
   location_url: "https://www.estates.manchester.ac.uk/services/centralteachingspaces/ourservices/roomcatalogue/?building=15&room=75"
   hybrid: true
-  # hybrid_url: "https://teams.microsoft.com/l/meetup-join/xxx"
+  hybrid_url: "https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1741775644013?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d"
+  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/307599485/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link"
 
 # chair:
 
@@ -30,11 +31,17 @@ content:
     Imagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with `devtools`, `usethis`, `testthat` and `roxygen2` in RStudio. Throw in a documentation website built with `pkgdown` and advice from `goodpractice` to streamline your workflow -- and take your R skills to the next level!
 ---
 
-<!-- Note: meta event_location is constructed in content/events/_construct-location.lua -->
+<!-- Notes: -->
+<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
+<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
 
 [{{< meta event.summary >}}]{.event-summary} \
 [{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
-[{{< meta event_location >}}]{.event-location}
+[{{< meta event.location-link >}}]{.event-location}
+
+<!-- ::: {.content-visible when-meta="event.meetup-link"} -->
+[{{< meta event.meetup-link >}}]{.event-meetup}
+<!-- ::: -->
 
 **Talk**: *{{< meta talk.topic_1 >}}*
 

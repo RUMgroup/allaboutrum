@@ -3,12 +3,14 @@ title: "Toni Price"
 format: html
 description: "Research Software Engineer"
 date: "2025-02-25"
-image: ../../../assets/img/team/profile.jpg
+image: ../../../assets/img/team/toni.jpg
 about:
   template: trestles
-  image: ../../../assets/img/team/profile.jpg
-  image-width: 8em
-  image-shape: rounded
+  image: ../../../assets/img/team/toni.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Toni Price"
+  image-title: "Toni Price"
 ---
 
 <!-- Current team member -->
