@@ -1,2 +1,3 @@
 filters:
-  - ../_construct-location.lua
+  - ../_construct-event-location.lua
+  - ../_construct-event-meetup.lua
