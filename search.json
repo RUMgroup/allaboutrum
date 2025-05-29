@@ -1,5 +1,96 @@
 [
   {
+    "objectID": "content/team/past/kamilla.html",
+    "href": "content/team/past/kamilla.html",
+    "title": "Kamilla Kopec-Harding",
+    "section": "",
+    "text": "Kamilla is a data scientist, research software engineer and R enthusiast."
+  },
+  {
+    "objectID": "content/team/past/mychel.html",
+    "href": "content/team/past/mychel.html",
+    "title": "Mychel Morais",
+    "section": "",
+    "text": "Mychel is a post-doctoral research associate at the University of Manchester, with an interest in cell-matrix biology. He uses R on a daily basis for bioinformatics analysis of high-throughput data from mass spectrometry experiments."
+  },
+  {
+    "objectID": "content/team/current/martin.html",
+    "href": "content/team/current/martin.html",
+    "title": "Martin Herrerias Azcue",
+    "section": "",
+    "text": "Martin is a Research Software Engineer at ResearchIT. His job is to help researchers write better code, and regularly delivers an intro-to-R workshop. He has a background in solar energy, with experience in systems modelling, data analysis, state estimation and optimization."
+  },
+  {
+    "objectID": "content/team/current/stavrina.html",
+    "href": "content/team/current/stavrina.html",
+    "title": "Stavrina Dimosthenous",
+    "section": "",
+    "text": "Stavrina is a Data Curator at the Henry Royce Institute. She is interested in data visualisation, data and science communication, and community building.\nORCID GitHub @stavrina"
+  },
+  {
+    "objectID": "content/team/current/lana.html",
+    "href": "content/team/current/lana.html",
+    "title": "Lana Bojanić",
+    "section": "",
+    "text": "Lana is a research assistant and a PhD candidate at the National Confidential Inquiry into Suicide and Safety in Mental Health (NCISH) at the University of Manchester. Currently an R user for over 6 years and a member of the R user group at the University of Manchester and R Ladies, Lana’s passion is introducing people to the R world and supporting them as they make the switch to full-time R users."
+  },
+  {
+    "objectID": "content/team/current/rowan.html",
+    "href": "content/team/current/rowan.html",
+    "title": "Rowan Green",
+    "section": "",
+    "text": "I’m a PhD student studying microbial evolution. I frequently use R in my research, both for simulating bacterial growth and for analysing lab data. I think R is an amazing tool and am excited to be bringing people together to share expertise in its many uses.\nORCiD"
+  },
+  {
+    "objectID": "content/contact.html",
+    "href": "content/contact.html",
+    "title": "Home",
+    "section": "",
+    "text": "Get in touch at\nr-user-group@manchester.ac.uk\n\n\nor via our Teams Channel\n\n\n\nIf you have a few minutes, we would value your input for our Rolling Survey to help us decide on content for future events"
+  },
+  {
+    "objectID": "content/events/past/2025-05-22_building-r-packages.html",
+    "href": "content/events/past/2025-05-22_building-r-packages.html",
+    "title": "Thinking Beyond Scripts: Build an R Package from the Ground Up",
+    "section": "",
+    "text": "In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way).\nThu 22 May, 2025 @ 12:00 pm - 1:00 pm BST\nHanson Room, Humanities Bridgeford Street • Online via Microsoft Teams\n\n\n\n\n\n\nIf you plan on attending in person, please register on Meetup \nTalk: Thinking Beyond Scripts: Build an R Package from the Ground Up\nImagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with devtools, usethis, testthat and roxygen2 in RStudio. Throw in a documentation website built with pkgdown and advice from goodpractice to streamline your workflow – and take your R skills to the next level!\nSpeaker: Toni Price\nToni is a Research Software Engineer at the University of Manchester. With a background in Statistics, she started her career in industry as a software developer, later completing a PhD which introduced her to R (it soon became her language of choice). She now focuses on writing robust, maintainable code and has a special interest in reproducible research."
+  },
+  {
+    "objectID": "content/events/past/2023-04-27_data-viz.html",
+    "href": "content/events/past/2023-04-27_data-viz.html",
+    "title": "Getting Things Done Done in R Series — Data Visualisation",
+    "section": "",
+    "text": "In this month’s meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.\nChair: Rowan Green\nTalk 1: A Quick Introduction to ggplot2 — speaker Sian Bladon (She/her) — Post Doctoral Research Associate, UoM\nA quick overview of the ggplot2 package how to get started with simple plots and how to customise them. I’ll also talk about where you can find more information and useful resources to help you get going.\nTalk 2: A Tour of ggplot2 Extensions — speaker Kamilla Kopec-Harding (She/her) — Research Software Engineer, UoM\nggplot2 comes with a useful ecosystem of user written packages that extend its functionality. In this talk, we take a tour of key ggplot2 extensions & how they can be used to solve common data visualization challenges and get things “done done” in R."
+  },
+  {
+    "objectID": "content/events/past/2024-06-27_deep-learning-getting-started.html",
+    "href": "content/events/past/2024-06-27_deep-learning-getting-started.html",
+    "title": "AI with R: Getting Started with Deep Learning",
+    "section": "",
+    "text": "Talk: AI with R: Getting Started with Deep Learning — speaker Kamilla Kopec-Harding\nKamilla, Senior Research Data Scientist at the University of Birmingham, joins us at UoM to give a talk on getting started with using Deep Learning in R.\nStudents and staff are all welcome to attend."
+  },
+  {
+    "objectID": "content/events/past/2023-10-26_semester-welcome.html",
+    "href": "content/events/past/2023-10-26_semester-welcome.html",
+    "title": "R.U.M. Semester Welcome Event",
+    "section": "",
+    "text": "In this session with speakers Lana Bojanic, Sian Bladon, and Martin Herrerias Azcue we introduce some of our favourite bits of R, talk about event plans for the academic year, and give an discuss how the most recent book club on R4DS went.\nOnline Meeting: Microsoft Teams\nThe Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk\nChair: Martin Herrerias Azcue\nTalk 1: An OveRview — speaker Lana Bojanic, the University of Manchester\nI will present my favourite bits and pieces of the R language.\nTalk 2: TidyTuesdays — speaker Sian Bladon, the University of Manchester\nA quick talk about the coming TidyTuesday Data Visualization Club events for the coming academic year.\nTalk 3: R4DS: Book Club, a Discussion — speaker Martin Herrerias Azcue, Research Software Engineer, the University of Manchester\nI will give a summary and discuss some take-aways from the R4DS Book Club we ran over Summer 2023, including our favourite verbs, functions, and what some of the attendees benefited from the most."
+  },
+  {
+    "objectID": "content/events/past/2025-02-27_spatial-data-and-mapping.html",
+    "href": "content/events/past/2025-02-27_spatial-data-and-mapping.html",
+    "title": "Spatial Data and Mapping in R",
+    "section": "",
+    "text": "Talk: Spatial Data and Mapping in R — speaker Maryna Shedzko\nDo you have an urge to know where?\nDiscover how to bring your data to life through mapping! This talk introduces the basics of spatial data and how to create stunning maps in R. Using the beloved ggplot2, tmap, and the powerful sf package, we’ll explore visualizing vector and raster data, creating thematic maps, and customizing them. Whether you;re new to spatial data or looking to enhance your data visualization skills, this session will guide you through the essentials of mapping in R.\nMaryna is a Research Software Engineer with a background in GIS and Biogeography. During her studies, she specialized in disease distribution, particularly using R for modelling and spatial analysis."
+  },
+  {
+    "objectID": "content/events/past/2023-11-30_r-pkg-dev.html",
+    "href": "content/events/past/2023-11-30_r-pkg-dev.html",
+    "title": "R package development",
+    "section": "",
+    "text": "Get an overview of how the predRupdate was developed and published on CRAN, and learn about doing analysis with the cosinor2 package.\nOnline Meeting:\nMicrosoft Teams\nThe Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk\nTalk 1: predRupdate and publishing to CRAN — speaker Glen Martin, Senior Lecturer in Health Data Science, the University of Manchester\nAbstract: In this talk I will give a brief overview of the predRupdate package, the stages of creating predRupdate and getting it published on CRAN.\nBio: Dr Glen Martin is a Senior Lecturer in Health Data Science, based in the Centre for Health Informatics at the University of Manchester. He has recently developed an R package for validating and updating clinical prediction models, predRupdate.\nTalk 2: Using the cosinor2 Package for R — speaker Augustin Mutak, Freie Universität Berlin\nAbstract: In this talk, attendees will learn about the cosinor model, which allows researchers to fit sinusoidal curves to detect periodicity, about different variants and extensions of the cosinor model and they will be given an overview of the package development. For every specific cosinor method mentioned in the talk, users will also be shown how to perform the corresponding analysis in R using the cosinor2 package.\nBio: Augustin Mutak is a Ph.D. student and a research assistant at Freie Universität Berlin, where he works on development of psychometric models for response times. Prior to that, he graduated psychology in Zagreb and researched fluctuations of mood, for the purpose of which he developed the cosinor2 package for R."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
@@ -21,102 +112,11 @@
     "text": "The R User Group at The University of Manchester (R.U.M.) is a special interest group that aims to bring together R users of all levels to share R best practices, expertise and knowledge for the benefit of all.\nThis friendly and supportive group is open to all staff and postgraduate researchers at the University of Manchester, UK.\n\n\n\n\nPromote the use of R at UoM\nShare R best practices\nEncourage reproducibility\n\n\n\n\n\n\nQuarterly meetings\nTidy Tuesdays\n\n\nPlease check the events tab for upcoming activities"
   },
   {
-    "objectID": "content/team/current/rowan.html",
-    "href": "content/team/current/rowan.html",
-    "title": "Rowan Green",
+    "objectID": "content/events/index.html",
+    "href": "content/events/index.html",
+    "title": "Upcoming & Past Events",
     "section": "",
-    "text": "I’m a PhD student studying microbial evolution. I frequently use R in my research, both for simulating bacterial growth and for analysing lab data. I think R is an amazing tool and am excited to be bringing people together to share expertise in its many uses.\nORCiD"
-  },
-  {
-    "objectID": "content/team/current/sian.html",
-    "href": "content/team/current/sian.html",
-    "title": "Sian Bladon",
-    "section": "",
-    "text": "I am a post-doctoral research associate in medical statistics at The University of Manchester, working on a project developing a clinical prediction algorithm for predicting risk of relapse in psychosis. I have been using R for around 6 years and particularly like the tidyverse and creating fun visualisations with ggplot2."
-  },
-  {
-    "objectID": "content/team/current/stavrina.html",
-    "href": "content/team/current/stavrina.html",
-    "title": "Stavrina Dimosthenous",
-    "section": "",
-    "text": "Stavrina is a Data Curator at the Henry Royce Institute. She is interested in data visualisation, data and science communication, and community building.\nORCID GitHub @stavrina"
-  },
-  {
-    "objectID": "content/team/current/martin.html",
-    "href": "content/team/current/martin.html",
-    "title": "Martin Herrerias Azcue",
-    "section": "",
-    "text": "Martin is a Research Software Engineer at ResearchIT. His job is to help researchers write better code, and regularly delivers an intro-to-R workshop. He has a background in solar energy, with experience in systems modelling, data analysis, state estimation and optimization."
-  },
-  {
-    "objectID": "content/team/past/mychel.html",
-    "href": "content/team/past/mychel.html",
-    "title": "Mychel Morais",
-    "section": "",
-    "text": "Mychel is a post-doctoral research associate at the University of Manchester, with an interest in cell-matrix biology. He uses R on a daily basis for bioinformatics analysis of high-throughput data from mass spectrometry experiments."
-  },
-  {
-    "objectID": "content/privacy.html",
-    "href": "content/privacy.html",
-    "title": "Privacy Policy",
-    "section": "",
-    "text": "This website is being hosted through GitHub Pages. When people visit this GitHub Pages website, GitHub may gather personal information about the users. This could include logs containing the IP addresses of visitors.\nThe purpose behind collecting this information is to meet legal requirements and ensure the security and proper functioning of the website.\nFor more in-depth information, you can refer to the GitHub Privacy Statement."
-  },
-  {
-    "objectID": "content/events/upcoming/2025-05-22_building-r-packages.html",
-    "href": "content/events/upcoming/2025-05-22_building-r-packages.html",
-    "title": "Thinking Beyond Scripts: Build an R Package from the Ground Up",
-    "section": "",
-    "text": "In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way).\nThu 22 May, 2025 @ 12:00 pm - 1:00 pm BST\nHanson Room, Humanities Bridgeford Street • Online via Microsoft Teams\n\nIf you plan on attending in person, please register on Meetup \nTalk: Thinking Beyond Scripts: Build an R Package from the Ground Up\nImagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with devtools, usethis, testthat and roxygen2 in RStudio. Throw in a documentation website built with pkgdown and advice from goodpractice to streamline your workflow – and take your R skills to the next level!\nSpeaker: Toni Price\nToni is a Research Software Engineer at the University of Manchester. With a background in Statistics, she started her career in industry as a software developer, later completing a PhD which introduced her to R (it soon became her language of choice). She now focuses on writing robust, maintainable code and has a special interest in reproducible research."
-  },
-  {
-    "objectID": "content/events/past/2023-06-29_automating-reports.html",
-    "href": "content/events/past/2023-06-29_automating-reports.html",
-    "title": "Getting Things Done Done in R Series — Automating Reports and More",
-    "section": "",
-    "text": "In this meeting with speakers Stavrina Dimosthenous and Duncan Hull, we take a look at how to automate reports and other publications in R.\nChair: Mychel Paiva Teixeira Morais\nTalk 1: Easy Reporting and More in Quarto Markdown for R — speaker Stavrina Dimosthenous, Data Curator, Henry Royce Institute, the University of Manchester\nI will be giving you a quick walkthrough Quarto Markdown for doing your analysis and reporting in R, and will briefly touch on a few Quarto features for creating documents and presentations.\nTalk 2: Using RMarkdown to write an Undergraduate Textbook — speaker Duncan Hull, Lecturer, Department of Computer Science\nA quick overview of some of the pros and cons of using RMarkdown and bookdown.org to author an undergraduate textbook."
-  },
-  {
-    "objectID": "content/events/past/2024-06-27_deep-learning-getting-started.html",
-    "href": "content/events/past/2024-06-27_deep-learning-getting-started.html",
-    "title": "AI with R: Getting Started with Deep Learning",
-    "section": "",
-    "text": "Talk: AI with R: Getting Started with Deep Learning — speaker Kamilla Kopec-Harding\nKamilla, Senior Research Data Scientist at the University of Birmingham, joins us at UoM to give a talk on getting started with using Deep Learning in R.\nStudents and staff are all welcome to attend."
-  },
-  {
-    "objectID": "content/events/past/2023-04-27_data-viz.html",
-    "href": "content/events/past/2023-04-27_data-viz.html",
-    "title": "Getting Things Done Done in R Series — Data Visualisation",
-    "section": "",
-    "text": "In this month’s meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.\nChair: Rowan Green\nTalk 1: A Quick Introduction to ggplot2 — speaker Sian Bladon (She/her) — Post Doctoral Research Associate, UoM\nA quick overview of the ggplot2 package how to get started with simple plots and how to customise them. I’ll also talk about where you can find more information and useful resources to help you get going.\nTalk 2: A Tour of ggplot2 Extensions — speaker Kamilla Kopec-Harding (She/her) — Research Software Engineer, UoM\nggplot2 comes with a useful ecosystem of user written packages that extend its functionality. In this talk, we take a tour of key ggplot2 extensions & how they can be used to solve common data visualization challenges and get things “done done” in R."
-  },
-  {
-    "objectID": "content/events/past/2025-02-27_spatial-data-and-mapping.html",
-    "href": "content/events/past/2025-02-27_spatial-data-and-mapping.html",
-    "title": "Spatial Data and Mapping in R",
-    "section": "",
-    "text": "Talk: Spatial Data and Mapping in R — speaker Maryna Shedzko\nDo you have an urge to know where?\nDiscover how to bring your data to life through mapping! This talk introduces the basics of spatial data and how to create stunning maps in R. Using the beloved ggplot2, tmap, and the powerful sf package, we’ll explore visualizing vector and raster data, creating thematic maps, and customizing them. Whether you;re new to spatial data or looking to enhance your data visualization skills, this session will guide you through the essentials of mapping in R.\nMaryna is a Research Software Engineer with a background in GIS and Biogeography. During her studies, she specialized in disease distribution, particularly using R for modelling and spatial analysis."
-  },
-  {
-    "objectID": "content/events/past/2023-10-26_semester-welcome.html",
-    "href": "content/events/past/2023-10-26_semester-welcome.html",
-    "title": "R.U.M. Semester Welcome Event",
-    "section": "",
-    "text": "In this session with speakers Lana Bojanic, Sian Bladon, and Martin Herrerias Azcue we introduce some of our favourite bits of R, talk about event plans for the academic year, and give an discuss how the most recent book club on R4DS went.\nOnline Meeting: Microsoft Teams\nThe Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk\nChair: Martin Herrerias Azcue\nTalk 1: An OveRview — speaker Lana Bojanic, the University of Manchester\nI will present my favourite bits and pieces of the R language.\nTalk 2: TidyTuesdays — speaker Sian Bladon, the University of Manchester\nA quick talk about the coming TidyTuesday Data Visualization Club events for the coming academic year.\nTalk 3: R4DS: Book Club, a Discussion — speaker Martin Herrerias Azcue, Research Software Engineer, the University of Manchester\nI will give a summary and discuss some take-aways from the R4DS Book Club we ran over Summer 2023, including our favourite verbs, functions, and what some of the attendees benefited from the most."
-  },
-  {
-    "objectID": "content/contact.html",
-    "href": "content/contact.html",
-    "title": "Home",
-    "section": "",
-    "text": "Get in touch at\nr-user-group@manchester.ac.uk\n\n\nor via our Teams Channel\n\n\n\nIf you have a few minutes, we would value your input for our Rolling Survey to help us decide on content for future events"
-  },
-  {
-    "objectID": "content/events/past/2024-09-26_quarto-and-docker.html",
-    "href": "content/events/past/2024-09-26_quarto-and-docker.html",
-    "title": "Executable and Reproducible Papers with Quarto and Docker",
-    "section": "",
-    "text": "Workshop: Executable and Reproducible Papers with Quarto and Docker — speaker Gabriel Strain\nIn this meeting with speaker Gabriel Strain, learn how to use quarto and docker to produce a formatted, reproducible and executable conference or journal article.\nThis will be an interactive workshop! Make sure to bring your laptop, with R, RStudio, and Docker Desktop."
+    "text": "Upcoming\nPlease check back for upcoming events.\n\n\n\n\nNo matching items\n\n\n\nPast\n\n\n\n\n\nThinking Beyond Scripts: Build an R Package from the Ground Up\n\n\n\n\n\nFri 25 Apr, 2025\n\n\n\n\n\n\n\nSpatial Data and Mapping in R\n\n\n\n\n\nThu 27 Feb, 2025\n\n\n\n\n\n\n\nR Functions [for visualization]\n\n\n\n\n\nThu 28 Nov, 2024\n\n\n\n\n\n\n\nExecutable and Reproducible Papers with Quarto and Docker\n\n\n\n\n\nThu 26 Sep, 2024\n\n\n\n\n\n\n\nAI with R: Getting Started with Deep Learning\n\n\n\n\n\nThu 27 Jun, 2024\n\n\n\n\n\n\n\nR package development\n\n\n\n\n\nThu 30 Nov, 2023\n\n\n\n\n\n\n\nR.U.M. TidyTuesday (On a Thursday!)\n\n\n\n\n\nThu 16 Nov, 2023\n\n\n\n\n\n\n\nR.U.M. Semester Welcome Event\n\n\n\n\n\nThu 26 Oct, 2023\n\n\n\n\n\n\n\nR4DS Summer Study Group 2023\n\n\n\n\n\nWed 12 Jul, 2023\n\n\n\n\n\n\n\nGetting Things Done Done in R Series — Automating Reports and More\n\n\n\n\n\nThu 29 Jun, 2023\n\n\n\n\n\n\n\nGetting Things Done Done in R Series — Publication Ready Tables\n\n\n\n\n\nThu 25 May, 2023\n\n\n\n\n\n\n\nGetting Things Done Done in R Series — Data Visualisation\n\n\n\n\n\nThu 27 Apr, 2023\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/events/past/2024-11-28_r-funcs-for-visualisation.html",
@@ -126,18 +126,11 @@
     "text": "Attention R beginners:\nTired of copy pasting blocks of code? Found yourself fixing the same bug in five different places? Want to test many variations of your script? Generate multiple similar plots?\nWrite R functions! They will make your R code more concise, easier to read, debug, and maintain.\nWe’ll have two short sessions:\nTalk 1: Introduction to Functions — speaker Martin Herrerias\nMartin will discuss basic function syntax, arguments, and environments.\nTalk 2: Generating Plots with Functions — speaker Sian Bladon\nSian will give a brief introduction to ggplot2 and talk about using the map function from purrr to automate creating multiple plots."
   },
   {
-    "objectID": "content/events/past/2023-05-25_pub-ready-tables.html",
-    "href": "content/events/past/2023-05-25_pub-ready-tables.html",
-    "title": "Getting Things Done Done in R Series — Publication Ready Tables",
+    "objectID": "content/events/past/2023-11-16_tidy-thurs.html",
+    "href": "content/events/past/2023-11-16_tidy-thurs.html",
+    "title": "R.U.M. TidyTuesday (On a Thursday!)",
     "section": "",
-    "text": "In this month’s meeting with speakers Rowan Green and Lucy Njoki Njuki we have two introductory talks on constructing tables followed by a small group discussion to share tips, tricks and best practices for making publication ready tables.\nChair: Kamilla Kopec-Harding\nTalk 1: Getting Things Done with gt table — speaker Rowan Green\nTalk 2: User-defined Functions to Create Summary Tables — speaker Lucy Njoki Njuki\nIn environments like Microsoft Azure that do not support the default viewer mode, utilising tabulation packages like gtsummary becomes impractical. In this example, I will demonstrate the use of user-defined functions to summarise data in such environments, using knitr::kable() to beautify the resulting tables.\nSLIDES CODE"
-  },
-  {
-    "objectID": "content/events/past/2023-11-30_r-pkg-dev.html",
-    "href": "content/events/past/2023-11-30_r-pkg-dev.html",
-    "title": "R package development",
-    "section": "",
-    "text": "Get an overview of how the predRupdate was developed and published on CRAN, and learn about doing analysis with the cosinor2 package.\nOnline Meeting:\nMicrosoft Teams\nThe Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk\nTalk 1: predRupdate and publishing to CRAN — speaker Glen Martin, Senior Lecturer in Health Data Science, the University of Manchester\nAbstract: In this talk I will give a brief overview of the predRupdate package, the stages of creating predRupdate and getting it published on CRAN.\nBio: Dr Glen Martin is a Senior Lecturer in Health Data Science, based in the Centre for Health Informatics at the University of Manchester. He has recently developed an R package for validating and updating clinical prediction models, predRupdate.\nTalk 2: Using the cosinor2 Package for R — speaker Augustin Mutak, Freie Universität Berlin\nAbstract: In this talk, attendees will learn about the cosinor model, which allows researchers to fit sinusoidal curves to detect periodicity, about different variants and extensions of the cosinor model and they will be given an overview of the package development. For every specific cosinor method mentioned in the talk, users will also be shown how to perform the corresponding analysis in R using the cosinor2 package.\nBio: Augustin Mutak is a Ph.D. student and a research assistant at Freie Universität Berlin, where he works on development of psychometric models for response times. Prior to that, he graduated psychology in Zagreb and researched fluctuations of mood, for the purpose of which he developed the cosinor2 package for R."
+    "text": "Our regular TidyTuesday Data Visualization Club (on a Thursday!)\nOnline Meeting: Microsoft Teams\nThe Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk\nThe November meeting of the TidyTuesday meeting will be on Thursday 16th November from 1-3pm. We will confirm a room nearer the time but joining online will also be an option!\nThe dataset we will be using is here, if you want to make something in advance then that would be great, otherwise we could use the first hour to have a go then share.\nDataset:\nhttps://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-08-22/readme.md"
   },
   {
     "objectID": "content/events/past/2023-07-12_r4ds-book-club.html",
@@ -154,32 +147,39 @@
     "text": "Over the months of July, August and September 2023, members of the R User Group at the University of Manchester (RUM) organising committee organised and ran study book club study sessions for the 2nd edition of R for Data Science by Hadley Wickham.\n\n\nEach week we covered new material from the 2nd edition of R for Data Science. A volunteer chair ran the study session by welcoming everyone and introduced the new concepts and topics covered. Participants then broke out into groups and shared how they tackled exercises within their groups. The chair wrapped each session with a summary and held space for open questions and conversation.\n\n\n\n\n\n\nDate\nWeek\nChair\n\n\n\n\n12/07/2023\nWeek 1\nStavrina Dimosthenous\n\n\n19/07/2023\nWeek 2\nStavrina Dimosthenous\n\n\n26/07/2023\nWeek 3\nMychel Morais\n\n\n02/08/2023\nWeek 4\nKamilla Kopec-Harding\n\n\n09/08/2023\nWeek 5\nRowan Green\n\n\n16/08/2023\nWeek 6\nLana Bojanic\n\n\n23/08/2023\nWeek 7\nKamilla Kopec-Harding\n\n\n30/08/2023\nWeek 8\nEmma Simpson\n\n\n06/09/2023\nWeek 9\nMartin Herrerias\n\n\n13/09/2023\nWeek 10\nMartin Herrerias\n\n\n20/09/2023\nWeek 11\nMychel Morais\n\n\n27/09/2023\nWeek 12\nRowan Green"
   },
   {
-    "objectID": "content/events/past/2023-11-16_tidy-thurs.html",
-    "href": "content/events/past/2023-11-16_tidy-thurs.html",
-    "title": "R.U.M. TidyTuesday (On a Thursday!)",
+    "objectID": "content/events/past/2023-05-25_pub-ready-tables.html",
+    "href": "content/events/past/2023-05-25_pub-ready-tables.html",
+    "title": "Getting Things Done Done in R Series — Publication Ready Tables",
     "section": "",
-    "text": "Our regular TidyTuesday Data Visualization Club (on a Thursday!)\nOnline Meeting: Microsoft Teams\nThe Microsoft Teams chat is only available for members of the University of Manchester, if you want to get in touch write us an email at r-user-group@manchester.ac.uk\nThe November meeting of the TidyTuesday meeting will be on Thursday 16th November from 1-3pm. We will confirm a room nearer the time but joining online will also be an option!\nThe dataset we will be using is here, if you want to make something in advance then that would be great, otherwise we could use the first hour to have a go then share.\nDataset:\nhttps://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-08-22/readme.md"
+    "text": "In this month’s meeting with speakers Rowan Green and Lucy Njoki Njuki we have two introductory talks on constructing tables followed by a small group discussion to share tips, tricks and best practices for making publication ready tables.\nChair: Kamilla Kopec-Harding\nTalk 1: Getting Things Done with gt table — speaker Rowan Green\nTalk 2: User-defined Functions to Create Summary Tables — speaker Lucy Njoki Njuki\nIn environments like Microsoft Azure that do not support the default viewer mode, utilising tabulation packages like gtsummary becomes impractical. In this example, I will demonstrate the use of user-defined functions to summarise data in such environments, using knitr::kable() to beautify the resulting tables.\nSLIDES CODE"
   },
   {
-    "objectID": "content/events/index.html",
-    "href": "content/events/index.html",
-    "title": "Upcoming & Past Events",
+    "objectID": "content/events/past/2023-06-29_automating-reports.html",
+    "href": "content/events/past/2023-06-29_automating-reports.html",
+    "title": "Getting Things Done Done in R Series — Automating Reports and More",
     "section": "",
-    "text": "Upcoming\n\n\n\nThu 22 May, 2025\n\n\n Thinking Beyond Scripts: Build an R Package from the Ground Up  In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way).  Thu 22 May, 2025 @ 12:00 pm - 1:00 pm BST  Hanson Room, Humanities Bridgeford Street • Online via Microsoft Teams \n\n\nNo matching items\n\n\n\nPast\n\n\n\n\n\nSpatial Data and Mapping in R\n\n\n\n\n\nThu 27 Feb, 2025\n\n\n\n\n\n\n\nR Functions [for visualization]\n\n\n\n\n\nThu 28 Nov, 2024\n\n\n\n\n\n\n\nExecutable and Reproducible Papers with Quarto and Docker\n\n\n\n\n\nThu 26 Sep, 2024\n\n\n\n\n\n\n\nAI with R: Getting Started with Deep Learning\n\n\n\n\n\nThu 27 Jun, 2024\n\n\n\n\n\n\n\nR package development\n\n\n\n\n\nThu 30 Nov, 2023\n\n\n\n\n\n\n\nR.U.M. TidyTuesday (On a Thursday!)\n\n\n\n\n\nThu 16 Nov, 2023\n\n\n\n\n\n\n\nR.U.M. Semester Welcome Event\n\n\n\n\n\nThu 26 Oct, 2023\n\n\n\n\n\n\n\nR4DS Summer Study Group 2023\n\n\n\n\n\nWed 12 Jul, 2023\n\n\n\n\n\n\n\nGetting Things Done Done in R Series — Automating Reports and More\n\n\n\n\n\nThu 29 Jun, 2023\n\n\n\n\n\n\n\nGetting Things Done Done in R Series — Publication Ready Tables\n\n\n\n\n\nThu 25 May, 2023\n\n\n\n\n\n\n\nGetting Things Done Done in R Series — Data Visualisation\n\n\n\n\n\nThu 27 Apr, 2023\n\n\n\n\n\nNo matching items"
+    "text": "In this meeting with speakers Stavrina Dimosthenous and Duncan Hull, we take a look at how to automate reports and other publications in R.\nChair: Mychel Paiva Teixeira Morais\nTalk 1: Easy Reporting and More in Quarto Markdown for R — speaker Stavrina Dimosthenous, Data Curator, Henry Royce Institute, the University of Manchester\nI will be giving you a quick walkthrough Quarto Markdown for doing your analysis and reporting in R, and will briefly touch on a few Quarto features for creating documents and presentations.\nTalk 2: Using RMarkdown to write an Undergraduate Textbook — speaker Duncan Hull, Lecturer, Department of Computer Science\nA quick overview of some of the pros and cons of using RMarkdown and bookdown.org to author an undergraduate textbook."
   },
   {
-    "objectID": "content/team/past/lucy.html",
-    "href": "content/team/past/lucy.html",
-    "title": "Lucy Njoki Njuki",
+    "objectID": "content/events/past/2024-09-26_quarto-and-docker.html",
+    "href": "content/events/past/2024-09-26_quarto-and-docker.html",
+    "title": "Executable and Reproducible Papers with Quarto and Docker",
     "section": "",
-    "text": "Lucy Njoki Njuki is a biostatistician in training and organiser of R Ladies Nairobi."
+    "text": "Workshop: Executable and Reproducible Papers with Quarto and Docker — speaker Gabriel Strain\nIn this meeting with speaker Gabriel Strain, learn how to use quarto and docker to produce a formatted, reproducible and executable conference or journal article.\nThis will be an interactive workshop! Make sure to bring your laptop, with R, RStudio, and Docker Desktop."
   },
   {
-    "objectID": "content/team/past/kamilla.html",
-    "href": "content/team/past/kamilla.html",
-    "title": "Kamilla Kopec-Harding",
+    "objectID": "content/privacy.html",
+    "href": "content/privacy.html",
+    "title": "Privacy Policy",
     "section": "",
-    "text": "Kamilla is a data scientist, research software engineer and R enthusiast."
+    "text": "This website is being hosted through GitHub Pages. When people visit this GitHub Pages website, GitHub may gather personal information about the users. This could include logs containing the IP addresses of visitors.\nThe purpose behind collecting this information is to meet legal requirements and ensure the security and proper functioning of the website.\nFor more in-depth information, you can refer to the GitHub Privacy Statement."
+  },
+  {
+    "objectID": "content/team/current/toni.html",
+    "href": "content/team/current/toni.html",
+    "title": "Toni Price",
+    "section": "",
+    "text": "Toni is a Research Software Engineer at UoM with a passion for R, which she first encountered whilst developing code for her PhD research in the Centre for Multilevel Modelling. This sparked a deep appreciation for R’s power both as a functional programming language and for statistical analysis (she also has a great fondness for ggplot2). Toni’s special interests are reproducible research/reporting, data visualisation and software quality."
   },
   {
     "objectID": "content/team/current/maryna.html",
@@ -189,18 +189,11 @@
     "text": "I am a Research Software Engineer at the University of Manchester with a background in GIS and Biogeography. R was the first programming language I learned, and I initially used it as a Geographic Information System for mapping and spatial analysis, particularly in species and disease distribution modelling. I was deeply impressed with R’s capabilities for such complicated analysis.\nThis experience solidified my passion for spatial data and sparked a deeper interest in programming, leading me to explore software development alongside GIS."
   },
   {
-    "objectID": "content/team/current/toni.html",
-    "href": "content/team/current/toni.html",
-    "title": "Toni Price",
+    "objectID": "content/team/current/sian.html",
+    "href": "content/team/current/sian.html",
+    "title": "Sian Bladon",
     "section": "",
-    "text": "Toni is a Research Software Engineer at UoM with a passion for R, which she first encountered whilst developing code for her PhD research in the Centre for Multilevel Modelling. This sparked a deep appreciation for R’s power both as a functional programming language and for statistical analysis (she also has a great fondness for ggplot2). Toni’s special interests are reproducible research & reporting, data visualisation and software quality."
-  },
-  {
-    "objectID": "content/team/current/lana.html",
-    "href": "content/team/current/lana.html",
-    "title": "Lana Bojanić",
-    "section": "",
-    "text": "Lana is a research assistant and a PhD candidate at the National Confidential Inquiry into Suicide and Safety in Mental Health (NCISH) at the University of Manchester. Currently an R user for over 6 years and a member of the R user group at the University of Manchester and R Ladies, Lana’s passion is introducing people to the R world and supporting them as they make the switch to full-time R users."
+    "text": "I am a post-doctoral research associate in medical statistics at The University of Manchester, working on a project developing a clinical prediction algorithm for predicting risk of relapse in psychosis. I have been using R for around 6 years and particularly like the tidyverse and creating fun visualisations with ggplot2."
   },
   {
     "objectID": "content/team/index.html",
@@ -222,5 +215,12 @@
     "title": "Organising Team",
     "section": "Past",
     "text": "Past\n\n\n\n\n\n\n\n\n\n\nKamilla Kopec-Harding\n\n\nData Scientist & Research Software Engineer\n\n\n\n\n\n\n\n\n\n\n\n\nLucy Njoki Njuki\n\n\nBiostatistician in training & Organiser of R Ladies Nairobi\n\n\n\n\n\n\n\n\n\n\n\n\nMychel Morais\n\n\nPost-doctoral Research Associate\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/team/past/lucy.html",
+    "href": "content/team/past/lucy.html",
+    "title": "Lucy Njoki Njuki",
+    "section": "",
+    "text": "Lucy Njoki Njuki is a biostatistician in training and organiser of R Ladies Nairobi."
   }
 ]

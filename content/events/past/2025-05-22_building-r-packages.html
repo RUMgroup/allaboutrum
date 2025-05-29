@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-2dd69ea45de4619fe3c68901172ff976.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-a19a6851e8a3b6721310f7091fcb5e11.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -157,7 +157,12 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="event-summary">In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way).</span><br>
 <span class="event-time">Thu 22 May, 2025 @ 12:00 pm - 1:00 pm BST</span><br>
 <span class="event-location"><a href="https://www.estates.manchester.ac.uk/services/centralteachingspaces/ourservices/roomcatalogue/?building=15&amp;room=75">Hanson Room, Humanities Bridgeford Street</a> <span class="sep">•</span> <a href="https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1741775644013?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d">Online via Microsoft Teams</a></span></p>
-<!-- ::: {.content-visible when-meta="event.meetup-link"} -->
+<!-- The following content will only be rendered if meta event.has-meetup-link is true -->
+<!-- Note: This is currently not working and is rendering in the opposite way from what -->
+<!-- is expected ... so comment out the conditional logic for now pending further -->
+<!-- investigation! (meta event.meetup-link will be an empty string if the url is not -->
+<!-- provided) -->
+<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
 <p><span class="event-meetup">If you plan on attending in person, please <a href="https://www.meetup.com/r-users-group-uni-manchester/events/307599485/?utm_medium=referral&amp;utm_campaign=share-btn_savedevents_share_modal&amp;utm_source=link">register on Meetup</a></span> <!-- ::: --></p>
 <p><strong>Talk</strong>: <em>Thinking Beyond Scripts: Build an R Package from the Ground Up</em></p>
 <p>Imagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with <code>devtools</code>, <code>usethis</code>, <code>testthat</code> and <code>roxygen2</code> in RStudio. Throw in a documentation website built with <code>pkgdown</code> and advice from <code>goodpractice</code> to streamline your workflow – and take your R skills to the next level!</p>
