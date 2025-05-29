@@ -24,7 +24,8 @@ listing:
     sort: date desc
 
 events:
-  upcoming: true
+  # Set meta events.upcoming to true/false according to whether there are any events to display
+  upcoming: false
 ---
 
 [comment]: # (NB: Set meta events.upcoming to true/false according to whether there are any events to display)
@@ -32,7 +33,7 @@ events:
 ### Upcoming
 
 ::: {.content-hidden when-meta="events.upcoming"}
-Check back for upcoming events.
+Please check back for upcoming events.
 :::
 
 :::{#events-upcoming}

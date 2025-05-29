@@ -20,5 +20,5 @@ first encountered whilst developing code for her PhD research in the
 [Centre for Multilevel Modelling](https://www.bristol.ac.uk/cmm). This sparked a
 deep appreciation for R's power both as a functional programming language and
 for statistical analysis (she also has a great fondness for ggplot2). Toni's
-special interests are reproducible research & reporting, data visualisation and
+special interests are reproducible research/reporting, data visualisation and
 software quality.
