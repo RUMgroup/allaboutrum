@@ -39,7 +39,12 @@ content:
 [{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
 [{{< meta event.location-link >}}]{.event-location}
 
-<!-- ::: {.content-visible when-meta="event.meetup-link"} -->
+<!-- The following content will only be rendered if meta event.has-meetup-link is true -->
+<!-- Note: This is currently not working and is rendering in the opposite way from what -->
+<!-- is expected ... so comment out the conditional logic for now pending further -->
+<!-- investigation! (meta event.meetup-link will be an empty string if the url is not -->
+<!-- provided) -->
+<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
 [{{< meta event.meetup-link >}}]{.event-meetup}
 <!-- ::: -->
 
