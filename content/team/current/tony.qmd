@@ -1,0 +1,22 @@
+---
+title: "Tony Evans"
+format: html
+description: "Research Software Engineer"
+date: "2025-07-04"
+image: ../../../assets/img/team/tony.jpg
+about:
+  template: trestles
+  image: ../../../assets/img/team/tony.jpg
+  image-width: 12em
+  image-shape: round
+  image-alt: "Tony Evans"
+  image-title: "Tony Evans"
+---
+
+<!-- Current team member -->
+
+As a Research Software Engineer at the University of Manchester I regularly help
+researchers write and debug R programs used in research and help out in R
+training sessions and workshops provided by Research IT. I have been involved
+with R.U.M. from the start and enjoy fostering collaboration and skill sharing
+among R enthusiasts and academics.
