@@ -1,3 +1,6 @@
 filters:
   - ../_construct-event-location.lua
   - ../_construct-event-meetup.lua
+format:
+  html:
+    anchor-sections: false

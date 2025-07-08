@@ -345,15 +345,28 @@ p.card-img-top {
 
 .list-entry {
   display: flex;
-  flex-direction: row;
-  gap: 1.3rem; /* Space between columns */
+  flex-direction: column; /* Stack row containers vertically */
+  gap: 1.3rem; /* Space between rows */
+}
+
+.list-entry > div {
+  display: flex;
+  flex-direction: row; /* Display cols for each row container horizontally */
+  gap: 1rem; /* Space between date and description cols */
+  align-items: flex-start; /* Align items to the top of each row */
 }
 
 .listing-col1 {
+  /* TODO: Remove commented out flex-shrink rule if not needed */
+  /* flex-shrink: 0; */ /* Prevent date col from shrinking */
   flex: 0 0 33%; /* Don't grow, don't shrink, width 33% */
+  min-width: 7.5rem; /* Set a minimum width for consistency */
 }
 
 .listing-col2 {
+  /* TODO: Remove commented-out flex rule if not needed */
+  /* flex: 1; */ /* Fill remaining space */
   flex: 1 1 auto; /* Grow, shrink, auto width (fills remaining space) */
   padding: 0 0.9rem 0 0;
 }
+

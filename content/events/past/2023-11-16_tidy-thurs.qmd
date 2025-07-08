@@ -3,9 +3,6 @@ title: "[R.U.M. TidyTuesday (On a Thursday!)]{.event-title}"
 subtitle: "[Our regular TidyTuesday Data Visualization Club (on a Thursday!)]{.event-summary} <br> \
 [Thu Nov 16, 2023 @ 1:00 pm - 2:00 pm]{.event-time} <br> \
 [Room 1A.010, Engineering A (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
-format:
-  html:
-    anchor-sections: false
 date: "2023-11-16"
 ---
 

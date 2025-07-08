@@ -3,9 +3,6 @@ title: "[Getting Things Done Done in R Series &#8212; Data Visualisation]{.event
 subtitle: "[In this month’s meeting with speakers Sian Bladon and Kamilla Kopec-Harding we look at data visualisation with ggplot2 and ggplot2 extensions.]{.event-summary} <br> \
 [Thu Apr 27, 2023 @ 1:00 pm - 2:00 pm]{.event-time} <br> \
 [Room 3A.016, Engineering A (University of Manchester)]{.event-location}"
-format:
-  html:
-    anchor-sections: false
 date: "2023-04-27"
 ---
 

@@ -3,9 +3,6 @@ title: "[Getting Things Done Done in R Series &#8212; Automating Reports and Mor
 subtitle: "[In this meeting with speakers Stavrina Dimosthenous and Duncan Hull, we take a look at how to automate reports and other publications in R.]{.event-summary} <br> \
 [Thu Jun 29, 2023 @ 1:00 pm - 2:00 pm]{.event-time} <br> \
 [Room 3A.016, Engineering A (University of Manchester)]{.event-location}"
-format:
-  html:
-    anchor-sections: false
 date: "2023-06-29"
 ---
 

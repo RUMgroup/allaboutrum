@@ -3,9 +3,6 @@ title: "[R.U.M. Semester Welcome Event]{.event-title}"
 subtitle: "[In this session with speakers Lana Bojanic, Sian Bladon, and Martin Herrerias Azcue we introduce some of our favourite bits of R, talk about event plans for the academic year, and give an discuss how the most recent book club on R4DS went.]{.event-summary} <br> \
 [Thu Oct 26, 2023 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
 [Room 3A.012, Engineering A (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
-format:
-  html:
-    anchor-sections: false
 date: "2023-10-26"
 ---
 

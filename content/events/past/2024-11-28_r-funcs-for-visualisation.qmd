@@ -3,9 +3,6 @@ title: "[R Functions [for visualization]]{.event-title}"
 subtitle: "[Martin Herrerias and Sian Bladon introduce R functions, ggplot2 and how to automate the creation of multiple plots.]{.event-summary} <br> \
 [Thu Nov 28, 2024 @ 12:00 pm - 1:00 pm]{.event-time} <br> \
 [Room 2.217, University Place (University of Manchester) [&#8226;]{.sep} Online via Microsoft Teams]{.event-location}"
-format:
-  html:
-    anchor-sections: false
 date: "2024-11-28"
 ---
 
