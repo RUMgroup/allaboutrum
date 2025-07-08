@@ -18,6 +18,7 @@
   {
     "listing": "/content/events/index.html",
     "items": [
+      "/content/events/upcoming/2025-10-02_random-forest.html",
       "/content/events/past/2025-05-22_building-r-packages.html",
       "/content/events/past/2025-02-27_spatial-data-and-mapping.html",
       "/content/events/past/2024-11-28_r-funcs-for-visualisation.html",
