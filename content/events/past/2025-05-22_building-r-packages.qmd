@@ -8,9 +8,11 @@ event:
   date: "Thu 22 May, 2025"
   # time_start:
   # time_end:
+  # time_zone:
   time: "12:00 pm - 1:00 pm BST"
-  summary: "In this meeting speaker Toni Price demonstrates how to build a simple R package (the easy way)."
-  location: "Hanson Room, Humanities Bridgeford Street"
+  summary: "Toni Price demonstrates how to build a simple R package
+    (the easy way)."
+  location: "Hanson Room, Humanities Bridgeford Street (UoM)"
   location_url: "https://www.estates.manchester.ac.uk/services/centralteachingspaces/ourservices/roomcatalogue/?building=15&room=75"
   hybrid: true
   hybrid_url: "https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1741775644013?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d"
@@ -24,14 +26,25 @@ talk:
 
 bio:
   speaker_1: |
-    Toni is a Research Software Engineer at the University of Manchester. With a background in Statistics, she started her career in industry as a software developer, later completing a PhD which introduced her to R (it soon became her language of choice). She now focuses on writing robust, maintainable code and has a special interest in reproducible research.
+    Toni is a Research Software Engineer at the University of Manchester. With a
+    background in Statistics, she started her career in industry as a software
+    developer, later completing a PhD which introduced her to R (it soon became
+    her language of choice). She now focuses on writing robust, maintainable
+    code and has a special interest in reproducible research.
 
 content:
   speaker_1: |
-    Imagine your R code as a polished, reusable tool that you can share with colleagues, collaborators or the entire R community. In this talk you’ll learn how to create a fully functional, tested and documented R package step-by-step the easy way with `devtools`, `usethis`, `testthat` and `roxygen2` in RStudio. Throw in a documentation website built with `pkgdown` and advice from `goodpractice` to streamline your workflow -- and take your R skills to the next level!
+    Imagine your R code as a polished, reusable tool that you can share with
+    colleagues, collaborators or the entire R community. In this talk you'll
+    learn how to create a fully functional, tested and documented R package
+    step-by-step the easy way with `devtools`, `usethis`, `testthat` and
+    `roxygen2` in RStudio. Throw in a documentation website built with `pkgdown`
+    and advice from `goodpractice` to streamline your workflow -- and take your
+    R skills to the next level!
 ---
 
-<!-- Notes: -->
+<!-- *** Note *** -->
+<!-- Dynamically constructed links: -->
 <!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
 <!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
 
@@ -39,11 +52,12 @@ content:
 [{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
 [{{< meta event.location-link >}}]{.event-location}
 
-<!-- The following content will only be rendered if meta event.has-meetup-link is true -->
-<!-- Note: This is currently not working and is rendering in the opposite way from what -->
-<!-- is expected ... so comment out the conditional logic for now pending further -->
-<!-- investigation! (meta event.meetup-link will be an empty string if the url is not -->
-<!-- provided) -->
+<!-- The following content will only be rendered if -->
+<!-- meta event.has-meetup-link is true -->
+<!-- Note: This is currently not working and is rendering in the opposite -->
+<!-- way from what is expected ... so comment out the conditional logic for -->
+<!-- now pending further investigation! (meta event.meetup-link will be an -->
+<!-- empty string if the url is not provided) -->
 <!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
 [{{< meta event.meetup-link >}}]{.event-meetup}
 <!-- ::: -->

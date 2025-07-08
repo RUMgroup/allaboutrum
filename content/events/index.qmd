@@ -12,20 +12,25 @@ listing:
   - id: events-upcoming
     template: _event-listing.ejs
     contents:
-      - "upcoming/*.qmd"
+      - upcoming/*.qmd
     sort:
       - "date desc"
       - "title"
 
   - id: events-past
-    contents: "past/*.qmd"
-    type: default
-    fields: [date, title]
-    sort: date desc
+    template: _event-listing.ejs
+    contents:
+      - past/*.qmd
+    # TODO: Remove this once past events have been converted to ejs template
+    # type: default
+    # fields: [date, title]
+    sort:
+      - "date desc"
+      - "title"
 
 events:
   # Set meta events.upcoming to true/false according to whether there are any events to display
-  upcoming: false
+  upcoming: true
 ---
 
 [comment]: # (NB: Set meta events.upcoming to true/false according to whether there are any events to display)

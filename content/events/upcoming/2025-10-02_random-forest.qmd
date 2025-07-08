@@ -1,0 +1,78 @@
+---
+title: "Can't see the forest for the trees? An intro to Random Forest machine learning in R"
+
+# Publication date of this entry
+date: "2025-07-08"
+
+event:
+  date: "Thu 2 Oct, 2025"
+  # time_start:
+  # time_end:
+  # time_zone:
+  time: "12:00 pm - 1:00 pm BST"
+  summary: "Chris Bowden covers everything you need to start running your own
+    Random Forest models in R."
+  # location: "Hanson Room, Humanities Bridgeford Street"
+  location: "Room TBC (please check back closer to the event date)"
+  # location_url: "https://www.estates.manchester.ac.uk/services/centralteachingspaces/ourservices/roomcatalogue/?building=15&room=75"
+  hybrid: true
+  hybrid_url: "https://teams.microsoft.com/l/message/19:17ae60f5-1f95-4b93-bc40-7c741013c1c9_a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a@unq.gbl.spaces/1751885694334?context=%7B%22contextType%22%3A%22chat%22%7D"
+  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/308963404/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link"
+
+# chair:
+
+talk:
+  speaker_1: "Chris Bowden"
+  topic_1: "Can't see the forest for the trees? An intro to Random Forest
+    machine learning in R"
+
+bio:
+  speaker_1: |
+    Chris is a postdoctoral research associate in the Agriculture, Water and
+    Climate group within the Civil Engineering &amp; Management department.
+    Starting out as a wheat breeder following his plant science background,
+    Chris returned to his hometown of Manchester to complete his PhD in
+    modelling crop responses to the changing monsoonal climate of India. His
+    research is now centred on developing and applying open-source crop-water
+    modelling tools to support assessment of risks to agriculture at basin to
+    global scales.
+
+content:
+  speaker_1: |
+    Heard of Random Forests and aren't sure where to start? Or have you always
+    wanted to apply machine learning to a problem but are worried about the
+    'black box' nature of the models? This talk will introduce one of the most
+    interpretable and accessible machine learning algorithms, Random Forests.
+    Beginning with a straightforward description of the model's structure, this
+    talk will then cover everything you need to start running your own Random
+    Forest models in R: from data preparation, variable selection, and types of
+    Random Forest models &#8212; to plotting and interpreting outputs and
+    accuracy measures. By the end of the session, you'll be branching out into
+    machine learning with confidence!
+---
+
+<!-- *** Note *** -->
+<!-- Dynamically constructed links: -->
+<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
+<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
+
+[{{< meta event.summary >}}]{.event-summary} \
+[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
+[{{< meta event.location-link >}}]{.event-location}
+
+<!-- The following content will only be rendered if -->
+<!-- meta event.has-meetup-link is true -->
+<!-- Note: This is currently not working and is rendering in the opposite -->
+<!-- way from what is expected ... so comment out the conditional logic for -->
+<!-- now pending further investigation! (meta event.meetup-link will be an -->
+<!-- empty string if the url is not provided) -->
+<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
+[{{< meta event.meetup-link >}}]{.event-meetup}
+<!-- ::: -->
+
+**Talk**: *{{< meta talk.topic_1 >}}*
+
+{{< meta content.speaker_1 >}}
+
+**Speaker**: *{{< meta talk.speaker_1 >}}* \
+{{< meta bio.speaker_1 >}}
