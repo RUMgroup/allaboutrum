@@ -1,5 +1,23 @@
 [
   {
+    "listing": "/content/events/index.html",
+    "items": [
+      "/content/events/upcoming/2025-10-09_random-forest.html",
+      "/content/events/past/2025-05-22_building-r-packages.html",
+      "/content/events/past/2025-02-27_spatial-data-and-mapping.html",
+      "/content/events/past/2024-11-28_r-funcs-for-visualisation.html",
+      "/content/events/past/2024-09-26_quarto-and-docker.html",
+      "/content/events/past/2024-06-27_deep-learning-getting-started.html",
+      "/content/events/past/2023-11-30_r-pkg-dev.html",
+      "/content/events/past/2023-11-16_tidy-thurs.html",
+      "/content/events/past/2023-10-26_semester-welcome.html",
+      "/content/events/past/2023-07-12_r4ds-book-club.html",
+      "/content/events/past/2023-06-29_automating-reports.html",
+      "/content/events/past/2023-05-25_pub-ready-tables.html",
+      "/content/events/past/2023-04-27_data-viz.html"
+    ]
+  },
+  {
     "listing": "/content/team/index.html",
     "items": [
       "/content/team/current/lana.html",
@@ -13,24 +31,6 @@
       "/content/team/past/kamilla.html",
       "/content/team/past/lucy.html",
       "/content/team/past/mychel.html"
-    ]
-  },
-  {
-    "listing": "/content/events/index.html",
-    "items": [
-      "/content/events/upcoming/2025-10-02_random-forest.html",
-      "/content/events/past/2025-05-22_building-r-packages.html",
-      "/content/events/past/2025-02-27_spatial-data-and-mapping.html",
-      "/content/events/past/2024-11-28_r-funcs-for-visualisation.html",
-      "/content/events/past/2024-09-26_quarto-and-docker.html",
-      "/content/events/past/2024-06-27_deep-learning-getting-started.html",
-      "/content/events/past/2023-11-30_r-pkg-dev.html",
-      "/content/events/past/2023-11-16_tidy-thurs.html",
-      "/content/events/past/2023-10-26_semester-welcome.html",
-      "/content/events/past/2023-07-12_r4ds-book-club.html",
-      "/content/events/past/2023-06-29_automating-reports.html",
-      "/content/events/past/2023-05-25_pub-ready-tables.html",
-      "/content/events/past/2023-04-27_data-viz.html"
     ]
   }
 ]
