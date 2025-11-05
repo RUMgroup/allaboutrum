@@ -38,7 +38,7 @@ events:
 ### Upcoming
 
 ::: {.content-hidden when-meta="events.upcoming"}
-Please check back for upcoming events.
+We don't currently have any scheduled events &#8230; please check back
 :::
 
 :::{#events-upcoming}
