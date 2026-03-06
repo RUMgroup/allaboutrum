@@ -31,7 +31,11 @@ function Meta(meta)
     if hybrid_url then
       online_link = string.format("[%s](%s)", online_link, hybrid_url)
     end
-    loc_link = string.format("%s [&#8226;]{.sep} %s", loc_link_txt, online_link)
+    if loc_link_txt ~= "" then
+      loc_link = string.format("%s [&#8226;]{.sep} %s", loc_link_txt, online_link)
+    else
+      loc_link = online_link
+    end
   else
     loc_link = loc_link_txt
   end

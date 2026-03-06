@@ -12,8 +12,9 @@ event:
   time: "12:00 pm - 1:00 pm"
   summary: "We are delighted to welcome invited speaker Cara Thompson on tips
     and tricks for effortless stand-out visualisations in R."
-  location: "Location: TBC"
-  # location_url: "https://clients.mapsindoors.com/uniofmanchester/f02513f6650e4646ae55c607/details/e879f84107154389a73da0fe"
+  # location: ""
+  # location_url: ""
+  online_only: true
   hybrid: true
   hybrid_url: "https://teams.microsoft.com/l/message/19:7067cf1044b243a4a548d19ef38dd4ca@thread.tacv2/1770044243310?tenantId=c152cb07-614e-4abb-818a-f035cfa91a77&groupId=dde76344-7a98-4c83-bfe6-4e06b718c013&parentMessageId=1770044243310&teamName=Computation%20and%20Data%20in%20Research%20(CaDiR)&channelName=R%20User%20Group%20(R.U.M.)&createdTime=1770044243310"
   meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/313172815/"
