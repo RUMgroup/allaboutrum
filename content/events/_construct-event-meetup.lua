@@ -8,7 +8,13 @@ function Meta(meta)
 
   local meetup_url = meta.event.meetup_url and pandoc.utils.stringify(meta.event.meetup_url) or nil
 
-  local meetup_label = "If you plan on attending in person, please"
+  local meetup_label = ""
+  if meta.event and meta.event.online_only then
+    meetup_label = "If you plan on attending, please"
+  else
+    meetup_label = "If you plan on attending in person, please"
+  end
+
   local meetup_link_txt = "register on Meetup"
 
   local has_meetup_link

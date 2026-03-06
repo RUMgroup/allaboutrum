@@ -3,7 +3,11 @@
   <%
     var hybrid_lbl = ""
     if (item.event && item.event.hybrid) {
-      hybrid_lbl = "&nbsp;[&#8226;]{.sep} Online via Microsoft Teams"
+      if (item.event.online_only) {
+        hybrid_lbl = "Online via Microsoft Teams"
+      } else {
+        hybrid_lbl = "&nbsp;[&#8226;]{.sep} Online via Microsoft Teams"
+      }
     }
   %><div>
   <div class="listing-col1 event-date"><%= (item.event && item.event.date) || item.date %></div>
