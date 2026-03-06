@@ -196,8 +196,8 @@
     "text": "Mychel is a post-doctoral research associate at the University of Manchester, with an interest in cell-matrix biology. He uses R on a daily basis for bioinformatics analysis of high-throughput data from mass spectrometry experiments."
   },
   {
-    "objectID": "content/events/upcoming/2026-03-26_make-it-yours-with-ggplot2.html",
-    "href": "content/events/upcoming/2026-03-26_make-it-yours-with-ggplot2.html",
+    "objectID": "content/events/upcoming/2026-03-26_stand-out-visualisations-in-r.html",
+    "href": "content/events/upcoming/2026-03-26_stand-out-visualisations-in-r.html",
     "title": "Make it your own: tips and tricks for effortless stand-out visualisations in R",
     "section": "",
     "text": "We are delighted to welcome invited speaker Cara Thompson on tips and tricks for effortless stand-out visualisations in R.\nThu 26 March, 2026 @ 12:00 pm - 1:00 pm\nOnline via Microsoft Teams\n\n\n\n\n\n\n\nIf you plan on attending, please register on Meetup \nTalk: Make it your own: tips and tricks for effortless stand-out visualisations in R\nThis talk explores the impact of good colour and annotation choices on the readability of our graphs. We will start by making a basic ggplot graph, and set about styling it, applying good principles of dataviz and typography. At each step, I will show how to implement this in ggplot, and highlight the traps I have fallen into so that others can avoid them! The aim of the session is to equip users to make more of their visualisations in ggplot, and make the case for investing in doing this programmatically. All the code will be shared with participants for them to continue building on after the session.\nSpeaker: Cara Thompson\nCara is a data visualisation consultant based in Edinburgh. She helps data-driven organisations and research teams communicate their findings to their end users through compelling and intuitive data visualisations. Her services include a combination of training, dataviz toolkits such as bespoke R packages, and dataviz commissions. She is an active member of the online RStats community, and enjoys learning out loud and experimenting with new ideas."
