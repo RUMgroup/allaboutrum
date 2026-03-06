@@ -1,0 +1,74 @@
+---
+title: "Make it your own: tips and tricks for effortless stand-out visualisations in R"
+
+# Publication date of this entry
+date: "2026-03-06"
+
+event:
+  date: "Thu 26 March, 2026"
+  # time_start:
+  # time_end:
+  # time_zone:
+  time: "12:00 pm - 1:00 pm"
+  summary: "Invited speaker Cara Thompson on tips and tricks for effortless
+    stand-out visualisations in R."
+  location: "Location: TBC"
+  # location_url: "https://clients.mapsindoors.com/uniofmanchester/f02513f6650e4646ae55c607/details/e879f84107154389a73da0fe"
+  hybrid: true
+  hybrid_url: "https://teams.microsoft.com/l/message/19:7067cf1044b243a4a548d19ef38dd4ca@thread.tacv2/1770044243310?tenantId=c152cb07-614e-4abb-818a-f035cfa91a77&groupId=dde76344-7a98-4c83-bfe6-4e06b718c013&parentMessageId=1770044243310&teamName=Computation%20and%20Data%20in%20Research%20(CaDiR)&channelName=R%20User%20Group%20(R.U.M.)&createdTime=1770044243310"
+  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/313172815/"
+# chair:
+
+talk:
+  speaker_1: "Cara Thompson"
+  topic_1: "Make it your own: tips and tricks for effortless stand-out
+    visualisations in R"
+
+bio:
+  speaker_1: |
+    Cara is a data visualisation consultant based in Edinburgh. She helps
+    data-driven organisations and research teams communicate their findings to
+    their end users through compelling and intuitive data visualisations. Her
+    services include a combination of training, dataviz toolkits such as bespoke
+    R packages, and dataviz commissions. She is an active member of the online
+    RStats community, and enjoys learning out loud and experimenting with new
+    ideas. 
+
+content:
+  speaker_1: |
+    This talk explores the impact of good colour and annotation choices on the
+    readability of our graphs. We will start by making a basic ggplot graph, and
+    set about styling it, applying good principles of dataviz and typography. At
+    each step, I will show how to implement this in ggplot, and highlight the
+    traps I have fallen into so that others can avoid them! The aim of the
+    session is to equip users to make more of their visualisations in ggplot,
+    and make the case for investing in doing this programmatically. All the code
+    will be shared with participants for them to continue building on after the
+    session.
+---
+
+<!-- *** Note *** -->
+<!-- Dynamically constructed links: -->
+<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
+<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
+
+[{{< meta event.summary >}}]{.event-summary} \
+[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
+[{{< meta event.location-link >}}]{.event-location}
+
+<!-- The following content will only be rendered if -->
+<!-- meta event.has-meetup-link is true -->
+<!-- Note: This is currently not working and is rendering in the opposite -->
+<!-- way from what is expected ... so comment out the conditional logic for -->
+<!-- now pending further investigation! (meta event.meetup-link will be an -->
+<!-- empty string if the url is not provided) -->
+<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
+[{{< meta event.meetup-link >}}]{.event-meetup}
+<!-- ::: -->
+
+**Talk**: *{{< meta talk.topic_1 >}}*
+
+{{< meta content.speaker_1 >}}
+
+**Speaker**: *{{< meta talk.speaker_1 >}}* \
+{{< meta bio.speaker_1 >}}
