@@ -10,8 +10,8 @@ event:
   # time_end:
   # time_zone:
   time: "12:00 pm - 1:00 pm"
-  summary: "Invited speaker Cara Thompson on tips and tricks for effortless
-    stand-out visualisations in R."
+  summary: "We are delighted to welcome invited speaker Cara Thompson on tips
+    and tricks for effortless stand-out visualisations in R."
   location: "Location: TBC"
   # location_url: "https://clients.mapsindoors.com/uniofmanchester/f02513f6650e4646ae55c607/details/e879f84107154389a73da0fe"
   hybrid: true
