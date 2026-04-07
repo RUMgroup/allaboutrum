@@ -30,7 +30,7 @@ listing:
 
 events:
   # Set meta events.upcoming to true/false according to whether there are any events to display
-  upcoming: true
+  upcoming: false
 ---
 
 [comment]: # (NB: Set meta events.upcoming to true/false according to whether there are any events to display)
