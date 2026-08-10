@@ -1,0 +1,19 @@
+<!-- *** Note *** -->
+<!-- Dynamically constructed links: -->
+<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
+<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
+
+[{{< meta event.summary >}}]{.event-summary} \
+[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
+[{{< meta event.location-link >}}]{.event-location}
+
+::: {when-meta="event.has-meetup-link"}
+[{{< meta event.meetup-link >}}]{.event-meetup}
+:::
+
+**Talk**: *{{< meta talk.topic_1 >}}*
+
+{{< meta content.speaker_1 >}}
+
+**Speaker**: *{{< meta talk.speaker_1 >}}* \
+{{< meta bio.speaker_1 >}}

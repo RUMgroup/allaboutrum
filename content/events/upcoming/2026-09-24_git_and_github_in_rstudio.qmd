@@ -2,7 +2,7 @@
 title: "Working with Git and GitHub in RStudio"
 
 # Publication date of this entry
-date: "2026-09-24"
+date: "2026-08-10"
 
 event:
   date: "Thu 24 September, 2026"
@@ -12,12 +12,12 @@ event:
   time: "12:00 pm - 1:00 pm BST"
   summary: "A practical introduction to version control from within RStudio
     to support reproducible and collaborative data science."
-  location: "University of Manchester, room TBD "
-  # location_url: ""
-  online_only: true
-  hybrid: true
-  hybrid_url: "https://teams.microsoft.com/meet/314142607894094?p=RwXbgaz2IsQb69cAOR"
-  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/315904515/"
+  location: "University of Manchester, room TBD"
+  # venue_url: ""
+  event_mode: "hybrid"
+  join_url: "https://teams.microsoft.com/meet/314142607894094?p=RwXbgaz2IsQb69cAOR"
+  registration_url: "https://www.meetup.com/r-users-group-uni-manchester/events/315904515/"
+
 # chair:
 
 talk:

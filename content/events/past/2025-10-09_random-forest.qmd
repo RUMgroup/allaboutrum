@@ -13,10 +13,11 @@ event:
   summary: "Chris Bowden covers everything you need to start running your own
     Random Forest models in R."
   location: "Nancy Rothwell GA.056"
-  location_url: "https://clients.mapsindoors.com/uniofmanchester/f02513f6650e4646ae55c607/details/e879f84107154389a73da0fe"
-  hybrid: true
-  hybrid_url: "https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1751884343074?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d"
-  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/308963404/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link"
+  venue_url: "https://clients.mapsindoors.com/uniofmanchester/f02513f6650e4646ae55c607/details/e879f84107154389a73da0fe"
+  event_mode: "hybrid"
+  join_url: "https://teams.microsoft.com/l/meetup-join/19%3a7067cf1044b243a4a548d19ef38dd4ca%40thread.tacv2/1751884343074?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%22a6268e3e-ebaf-4ac7-8498-8dbd4e1c426a%22%7d"
+  registration_url: "https://www.meetup.com/r-users-group-uni-manchester/events/308963404/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link"
+
 # chair:
 
 talk:
@@ -49,28 +50,4 @@ content:
     machine learning with confidence!
 ---
 
-<!-- *** Note *** -->
-<!-- Dynamically constructed links: -->
-<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
-<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
-
-[{{< meta event.summary >}}]{.event-summary} \
-[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
-[{{< meta event.location-link >}}]{.event-location}
-
-<!-- The following content will only be rendered if -->
-<!-- meta event.has-meetup-link is true -->
-<!-- Note: This is currently not working and is rendering in the opposite -->
-<!-- way from what is expected ... so comment out the conditional logic for -->
-<!-- now pending further investigation! (meta event.meetup-link will be an -->
-<!-- empty string if the url is not provided) -->
-<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
-[{{< meta event.meetup-link >}}]{.event-meetup}
-<!-- ::: -->
-
-**Talk**: *{{< meta talk.topic_1 >}}*
-
-{{< meta content.speaker_1 >}}
-
-**Speaker**: *{{< meta talk.speaker_1 >}}* \
-{{< meta bio.speaker_1 >}}
+{{< include ../_event-detail-component.qmd >}}
