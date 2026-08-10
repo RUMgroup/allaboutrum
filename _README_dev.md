@@ -21,15 +21,16 @@ title: "Your Event Title"
 date: "YYYY-MM-DD"
 
 event:
-  date: "Dayname Day Month, Year"
-  time: "12:00 pm - 1:00 pm GMT"  # insert correct time as appropriate
+  date: "Day-name Day Month, Year"
+  time: "12:00 pm - 1:00 pm GMT"   # insert correct time as appropriate
   summary: "Short event summary"
-  location: "Room name"
-  location_url: "https://..."
-  hybrid: true
-  online_only: false
-  hybrid_url: "https://teams.microsoft.com/..."
-  meetup_url: "https://www.meetup.com/..."
+  location: "Room name"   # or leave empty as appropriate
+  venue_url: "https://..."   # or leave empty as appropriate
+  event_mode: "hybrid" | "online-only" | "in-person"
+  join_url: "https://teams.microsoft.com/..."   # or leave empty as appropriate
+  registration_url: "https://www.meetup.com/..."
+
+# chair:
 
 talk:
   speaker_1: "Speaker Name"

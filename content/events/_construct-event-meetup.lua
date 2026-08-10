@@ -13,8 +13,12 @@ function Meta(meta)
     return meta
   end
 
-  local meetup_url = as_text(meta.event.meetup_url)
-  local has_meetup_link = meetup_url ~= ""
+  -- Prefer registration_url; fall back to meetup_url for backwards compatibility.
+  local registration_url = as_text(meta.event.registration_url)
+  if registration_url == "" then
+    registration_url = as_text(meta.event.meetup_url)
+  end
+  local has_meetup_link = registration_url ~= ""
 
   -- Prefer event_mode; fall back to legacy booleans for backwards compatibility.
   local event_mode = as_text(meta.event.event_mode)
@@ -35,7 +39,7 @@ function Meta(meta)
 
   local meetup_link = pandoc.MetaInlines(pandoc.Str(""))
   if has_meetup_link then
-    local meetup_txt = string.format("%s [register on Meetup](%s)", meetup_label, meetup_url)
+    local meetup_txt = string.format("%s [register on Meetup](%s)", meetup_label, registration_url)
     meetup_link = pandoc.MetaInlines(pandoc.read(meetup_txt, "markdown").blocks[1].content)
   end
 

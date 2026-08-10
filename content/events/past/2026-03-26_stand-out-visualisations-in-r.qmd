@@ -13,10 +13,10 @@ event:
   summary: "We are delighted to welcome invited speaker Cara Thompson on tips
     and tricks for effortless stand-out visualisations in R."
   # location: ""
-  # location_url: ""
+  # venue_url: ""
   event_mode: "online-only"
-  hybrid_url: "https://teams.microsoft.com/meet/39698534105343?p=fApHtgURWxJLOmTJD2"
-  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/313172815/"
+  join_url: "https://teams.microsoft.com/meet/39698534105343?p=fApHtgURWxJLOmTJD2"
+  registration_url: "https://www.meetup.com/r-users-group-uni-manchester/events/313172815/"
 
 # chair:
 

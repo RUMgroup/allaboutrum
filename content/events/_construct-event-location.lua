@@ -15,7 +15,11 @@ function Meta(meta)
   end
 
   local location_txt = as_text(meta.event.location)
-  local location_url = as_text(meta.event.location_url)
+  -- Prefer venue_url; fall back to location_url for backwards compatibility.
+  local venue_url = as_text(meta.event.venue_url)
+  if venue_url == "" then
+    venue_url = as_text(meta.event.location_url)
+  end
   -- Prefer event_mode; fall back to legacy booleans for backwards compatibility.
   local event_mode = as_text(meta.event.event_mode)
   if event_mode == "" then
@@ -28,7 +32,14 @@ function Meta(meta)
     end
   end
   local is_online = event_mode == "hybrid" or event_mode == "online-only"
-  local hybrid_url = as_text(meta.event.hybrid_url)
+  -- Prefer join_url; fall back to online_url, then hybrid_url for backwards compatibility.
+  local join_url = as_text(meta.event.join_url)
+  if join_url == "" then
+    join_url = as_text(meta.event.online_url)
+  end
+  if join_url == "" then
+    join_url = as_text(meta.event.hybrid_url)
+  end
   local online_txt = "Online via Microsoft Teams"
 
   local location_display = location_txt
@@ -41,13 +52,13 @@ function Meta(meta)
   end
 
   local location_link_txt = location_txt
-  if location_url ~= "" and location_txt ~= "" then
-    location_link_txt = string.format("[%s](%s)", location_txt, location_url)
+  if venue_url ~= "" and location_txt ~= "" then
+    location_link_txt = string.format("[%s](%s)", location_txt, venue_url)
   end
 
   local online_link_txt = online_txt
-  if hybrid_url ~= "" then
-    online_link_txt = string.format("[%s](%s)", online_txt, hybrid_url)
+  if join_url ~= "" then
+    online_link_txt = string.format("[%s](%s)", online_txt, join_url)
   end
 
   local location_link = location_link_txt
