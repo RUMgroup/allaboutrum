@@ -16,12 +16,23 @@ function Meta(meta)
 
   local location_txt = as_text(meta.event.location)
   local location_url = as_text(meta.event.location_url)
-  local is_hybrid = meta.event.hybrid == true
+  -- Prefer event_mode; fall back to legacy booleans for backwards compatibility.
+  local event_mode = as_text(meta.event.event_mode)
+  if event_mode == "" then
+    if meta.event.online_only == true then
+      event_mode = "online-only"
+    elseif meta.event.hybrid == true then
+      event_mode = "hybrid"
+    else
+      event_mode = "in-person"
+    end
+  end
+  local is_online = event_mode == "hybrid" or event_mode == "online-only"
   local hybrid_url = as_text(meta.event.hybrid_url)
   local online_txt = "Online via Microsoft Teams"
 
   local location_display = location_txt
-  if is_hybrid then
+  if is_online then
     if location_txt ~= "" then
       location_display = string.format("%s • %s", location_txt, online_txt)
     else
@@ -40,7 +51,7 @@ function Meta(meta)
   end
 
   local location_link = location_link_txt
-  if is_hybrid then
+  if is_online then
     if location_link_txt ~= "" then
       location_link = string.format("%s [&#8226;]{.sep} %s", location_link_txt, online_link_txt)
     else

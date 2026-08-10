@@ -14,10 +14,10 @@ event:
     and tricks for effortless stand-out visualisations in R."
   # location: ""
   # location_url: ""
-  online_only: true
-  hybrid: true
+  event_mode: "online-only"
   hybrid_url: "https://teams.microsoft.com/meet/39698534105343?p=fApHtgURWxJLOmTJD2"
   meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/313172815/"
+
 # chair:
 
 talk:

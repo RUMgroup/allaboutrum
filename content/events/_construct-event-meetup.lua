@@ -16,8 +16,20 @@ function Meta(meta)
   local meetup_url = as_text(meta.event.meetup_url)
   local has_meetup_link = meetup_url ~= ""
 
+  -- Prefer event_mode; fall back to legacy booleans for backwards compatibility.
+  local event_mode = as_text(meta.event.event_mode)
+  if event_mode == "" then
+    if meta.event.online_only == true then
+      event_mode = "online-only"
+    elseif meta.event.hybrid == true then
+      event_mode = "hybrid"
+    else
+      event_mode = "in-person"
+    end
+  end
+
   local meetup_label = "If you plan on attending in person, please"
-  if meta.event.online_only == true then
+  if event_mode == "online-only" then
     meetup_label = "If you plan on attending, please"
   end
 

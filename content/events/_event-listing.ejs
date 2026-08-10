@@ -5,8 +5,9 @@
     let locationDisplay = '';
     if (event) {
       const baseLocation = event.location || '';
-      if (event.hybrid) {
-        if (event.online_only || baseLocation === '') {
+      const effectiveMode = event.event_mode || (event.online_only ? 'online-only' : (event.hybrid ? 'hybrid' : 'in-person'));
+      if (effectiveMode === 'hybrid' || effectiveMode === 'online-only') {
+        if (effectiveMode === 'online-only' || baseLocation === '') {
           locationDisplay = 'Online via Microsoft Teams';
         } else {
           locationDisplay = baseLocation + ' [&#8226;]{.sep} Online via Microsoft Teams';
