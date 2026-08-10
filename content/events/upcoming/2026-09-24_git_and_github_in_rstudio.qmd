@@ -1,0 +1,71 @@
+---
+title: "Working with Git and GitHub in RStudio"
+
+# Publication date of this entry
+date: "2026-09-24"
+
+event:
+  date: "Thu 24 September, 2026"
+  # time_start:
+  # time_end:
+  # time_zone:
+  time: "12:00 pm - 1:00 pm BST"
+  summary: "A practical introduction to version control from within RStudio
+    to support reproducible and collaborative data science."
+  location: "University of Manchester, room TBD "
+  # location_url: ""
+  online_only: true
+  hybrid: true
+  hybrid_url: "https://teams.microsoft.com/meet/314142607894094?p=RwXbgaz2IsQb69cAOR"
+  meetup_url: "https://www.meetup.com/r-users-group-uni-manchester/events/315904515/"
+# chair:
+
+talk:
+  speaker_1: "Glen Martin"
+  topic_1: "Working with Git and GitHub in RStudio"
+
+bio:
+  speaker_1: |
+    Glen is a Senior Lecturer in Health Data Science in the Division of
+    Informatics, Imaging and Data Science at the University of Manchester. His
+    research focuses on developing and implementing clinical risk prediction
+    models using large-scale health data, with expertise in multivariate
+    modelling, missing data, and model translation. He holds a PhD in Health
+    Data Science and is a Chartered Statistician. Glen has led and contributed
+    to major research projects funded by the NIHR, MRC, Wellcome Trust, and
+    others, and has published over 130 peer-reviewed papers.
+
+content:
+  speaker_1: |
+    This talk will provide a practical introduction to using Git and GitHub from
+    within RStudio to support reproducible and collaborative data science. We'll
+    cover the basics of version control, setting up repositories, managing
+    changes, and working effectively with collaborators through GitHub. The
+    session is aimed at R users with little or no prior experience of Git.
+---
+
+<!-- *** Note *** -->
+<!-- Dynamically constructed links: -->
+<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
+<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
+
+[{{< meta event.summary >}}]{.event-summary} \
+[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
+[{{< meta event.location-link >}}]{.event-location}
+
+<!-- The following content will only be rendered if -->
+<!-- meta event.has-meetup-link is true -->
+<!-- Note: This is currently not working and is rendering in the opposite -->
+<!-- way from what is expected ... so comment out the conditional logic for -->
+<!-- now pending further investigation! (meta event.meetup-link will be an -->
+<!-- empty string if the url is not provided) -->
+<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
+[{{< meta event.meetup-link >}}]{.event-meetup}
+<!-- ::: -->
+
+<!-- **Talk**: *{{< meta talk.topic_1 >}}* -->
+
+{{< meta content.speaker_1 >}}
+
+**Speaker**: *{{< meta talk.speaker_1 >}}* \
+{{< meta bio.speaker_1 >}}
