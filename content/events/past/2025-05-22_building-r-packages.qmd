@@ -43,28 +43,4 @@ content:
     R skills to the next level!
 ---
 
-<!-- *** Note *** -->
-<!-- Dynamically constructed links: -->
-<!-- 1. meta event.location-link is constructed in content/events/_construct-event-location.lua -->
-<!-- 2. meta event.meetup-link is constructed in content/events/_construct-event-meetup.lua -->
-
-[{{< meta event.summary >}}]{.event-summary} \
-[{{< meta event.date >}} @ {{< meta event.time >}}]{.event-time} \
-[{{< meta event.location-link >}}]{.event-location}
-
-<!-- The following content will only be rendered if -->
-<!-- meta event.has-meetup-link is true -->
-<!-- Note: This is currently not working and is rendering in the opposite -->
-<!-- way from what is expected ... so comment out the conditional logic for -->
-<!-- now pending further investigation! (meta event.meetup-link will be an -->
-<!-- empty string if the url is not provided) -->
-<!-- ::: {.content-hidden unless-meta="event.has-meetup-link"} -->
-[{{< meta event.meetup-link >}}]{.event-meetup}
-<!-- ::: -->
-
-**Talk**: *{{< meta talk.topic_1 >}}*
-
-{{< meta content.speaker_1 >}}
-
-**Speaker**: *{{< meta talk.speaker_1 >}}* \
-{{< meta bio.speaker_1 >}}
+{{< include ../_event-detail-component.qmd >}}

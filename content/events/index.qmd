@@ -21,9 +21,14 @@ listing:
     template: _event-listing.ejs
     contents:
       - past/*.qmd
-    # TODO: Remove this once past events have been converted to ejs template
-    # type: default
-    # fields: [date, title]
+    # Temporary compatibility fallback for legacy event pages that do not yet
+    # use the new 'event:' metadata block (i.e. event pages up to 2025-02-27).
+    # The listing template in content/events/_event-listing.ejs falls back to
+    # the top-level title/subtitle/date fields when an 'event:' block is absent.
+    # This fallback can be removed once all event pages have been migrated to
+    # the new 'event:' structure. At that point, the 'sort:' rule should also be
+    # reviewed and adjusted if you want the listing to order items using the new
+    # event-based metadata structure.
     sort:
       - "date desc"
       - "title"
