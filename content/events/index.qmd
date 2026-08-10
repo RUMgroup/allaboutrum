@@ -13,6 +13,8 @@ listing:
     template: _event-listing.ejs
     contents:
       - upcoming/*.qmd
+    template-params:
+      empty-message: "We don't currently have any scheduled events &#8230; please check back."
     sort:
       - "date desc"
       - "title"
@@ -33,18 +35,9 @@ listing:
       - "date desc"
       - "title"
 
-events:
-  # Set meta events.upcoming to true/false according to whether there are any events to display
-  upcoming: true
 ---
 
-[comment]: # (NB: Set meta events.upcoming to true/false according to whether there are any events to display)
-
 ### Upcoming
-
-::: {.content-hidden when-meta="events.upcoming"}
-We don't currently have any scheduled events &#8230; please check back
-:::
 
 :::{#events-upcoming}
 :::

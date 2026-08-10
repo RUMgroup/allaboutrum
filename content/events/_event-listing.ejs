@@ -1,3 +1,8 @@
+<% if (items.length === 0) { %>
+  <% if (templateParams && templateParams['empty-message']) { %>
+<p><%= templateParams['empty-message'] %></p>
+  <% } %>
+<% } else { %>
 <div class="list-entry">
 <% for (const item of items) { %>
   <%
@@ -27,3 +32,4 @@
   </a></div></div>
 <% } %>
 </div>
+<% } %>
