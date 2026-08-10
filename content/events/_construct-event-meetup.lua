@@ -13,23 +13,12 @@ function Meta(meta)
     return meta
   end
 
-  -- Prefer registration_url; fall back to meetup_url for backwards compatibility.
   local registration_url = as_text(meta.event.registration_url)
-  if registration_url == "" then
-    registration_url = as_text(meta.event.meetup_url)
-  end
   local has_meetup_link = registration_url ~= ""
 
-  -- Prefer event_mode; fall back to legacy booleans for backwards compatibility.
   local event_mode = as_text(meta.event.event_mode)
   if event_mode == "" then
-    if meta.event.online_only == true then
-      event_mode = "online-only"
-    elseif meta.event.hybrid == true then
-      event_mode = "hybrid"
-    else
-      event_mode = "in-person"
-    end
+    event_mode = "in-person"
   end
 
   local meetup_label = "If you plan on attending in person, please"

@@ -15,31 +15,13 @@ function Meta(meta)
   end
 
   local location_txt = as_text(meta.event.location)
-  -- Prefer venue_url; fall back to location_url for backwards compatibility.
   local venue_url = as_text(meta.event.venue_url)
-  if venue_url == "" then
-    venue_url = as_text(meta.event.location_url)
-  end
-  -- Prefer event_mode; fall back to legacy booleans for backwards compatibility.
   local event_mode = as_text(meta.event.event_mode)
   if event_mode == "" then
-    if meta.event.online_only == true then
-      event_mode = "online-only"
-    elseif meta.event.hybrid == true then
-      event_mode = "hybrid"
-    else
-      event_mode = "in-person"
-    end
+    event_mode = "in-person"
   end
   local is_online = event_mode == "hybrid" or event_mode == "online-only"
-  -- Prefer join_url; fall back to online_url, then hybrid_url for backwards compatibility.
   local join_url = as_text(meta.event.join_url)
-  if join_url == "" then
-    join_url = as_text(meta.event.online_url)
-  end
-  if join_url == "" then
-    join_url = as_text(meta.event.hybrid_url)
-  end
   local online_txt = "Online via Microsoft Teams"
 
   local location_display = location_txt
